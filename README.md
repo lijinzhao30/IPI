@@ -1,9 +1,8 @@
 # IPIBench: Evaluating Interactive Proactive Intelligence of MLLMs under Continuous Streams
 
-> **Code is coming soon.**  
-> This repository currently hosts the project introduction and assets for the IPIBench paper. The implementation of IPI-Agent will be released here later.
+https://lijinzhao30.github.io/IPIBench/IPI_Demo.mp4
 
-[Project Page](https://lijinzhao30.github.io/IPIBench/) · [Paper](https://lijinzhao30.github.io/IPIBench/paper.pdf) · [Demo Video](assets/IPI_Demo.mp4)
+[Project Page](https://lijinzhao30.github.io/IPIBench/) · [Paper](https://lijinzhao30.github.io/IPIBench/paper.pdf)
 
 ## Overview
 
@@ -11,7 +10,7 @@ Recent multimodal large language models (MLLMs) have made strong progress on rea
 
 **IPIBench** evaluates this capability as **Interactive Proactive Intelligence** under continuous video streams. It covers three major interaction settings:
 
-- **Proactive Monitoring**: when to proactively trigger, what to understand, and how to avoid repeated or unstable responses.
+- **Proactive Monitoring**: when to trigger, what to understand, and how to maintain sustained and stable responses.
 - **Proactive Task Management**: how to manage user instructions across cancellation, modification, and multiple concurrent tasks.
 - **Interleaved Reactive–Proactive Requests**: how to coordinate reactive questions with ongoing proactive goals in multi-turn streaming scenarios.
 
@@ -28,12 +27,6 @@ Recent multimodal large language models (MLLMs) have made strong progress on rea
 IPI-Agent turns existing offline MLLMs into more stable, stateful streaming assistants without additional training. It separates interaction control, temporal gating, memory, and response generation so that the agent can decide when to respond, when to stay silent, and how to preserve context across evolving user requests.
 
 ![IPI-Agent architecture](assets/IPI-Agent.png)
-
-## Demo
-
-Click the preview below to watch the demo video:
-
-[![IPI demo poster](assets/video-poster.jpg)](assets/IPI_Demo.mp4)
 
 ## Repository status
 
