@@ -1,7 +1,5 @@
 # IPIBench: Evaluating Interactive Proactive Intelligence of MLLMs under Continuous Streams
 
-https://lijinzhao30.github.io/IPIBench/IPI_Demo.mp4
-
 [Project Page](https://lijinzhao30.github.io/IPIBench/) · [Paper](https://lijinzhao30.github.io/IPIBench/paper.pdf)
 
 ## Overview
@@ -33,7 +31,6 @@ IPI-Agent turns existing offline MLLMs into more stable, stateful streaming assi
 This repository is currently being prepared for release.
 
 - ✅ Project assets and paper overview are available.
-- ✅ Demo video is available under `assets/`.
 - 🚧 Code is coming soon.
 
 ## Citation
