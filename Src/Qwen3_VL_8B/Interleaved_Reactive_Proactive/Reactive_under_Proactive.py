@@ -11,25 +11,32 @@ import argparse
 from transformers import Qwen3VLForConditionalGeneration, AutoProcessor
 from qwen_vl_utils import process_vision_info
 
-PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../.."))
-TASK_GROUP = "Interleaved_Reactive_Proactive"
-TASK_NAME = "Reactive_under_Proactive"
-INPUT_JSON = os.path.join(PROJECT_ROOT, "Benchmark", TASK_GROUP, f"{TASK_NAME}.json")
-OUTPUT_JSON = os.path.join(PROJECT_ROOT, "Result", "Qwen3_VL_8B", TASK_GROUP, "Reactive_under_Proactive.json")
-FRAME_BASE_DIR = os.path.join(PROJECT_ROOT, "Image", TASK_GROUP, TASK_NAME)
-BATCH_SIZE = 16
-MAX_TOKENS = 500
-MAX_FRAMES = 16
-
 def parse_args():
-    parser = argparse.ArgumentParser(description=f"Run Qwen3-VL-8B on {TASK_GROUP}/{TASK_NAME}")
-    parser.add_argument("--input_json", default=INPUT_JSON, help="Path to the benchmark JSON file")
-    parser.add_argument("--output_json", default=OUTPUT_JSON, help="Path to the output JSON file")
-    parser.add_argument("--frame_base_dir", default=FRAME_BASE_DIR, help="Path to the extracted frame directory")
+    project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../.."))
+    task_group = os.path.basename(os.path.dirname(__file__))
+    task_name = os.path.splitext(os.path.basename(__file__))[0]
+    benchmark_task_name = task_name[:-9] if task_name.endswith("_instruct") else task_name
+
+    parser = argparse.ArgumentParser(description=f"Run Qwen3-VL-8B on {task_group}/{benchmark_task_name}")
+    parser.add_argument(
+        "--input_json",
+        default=os.path.join(project_root, "Benchmark", task_group, f"{benchmark_task_name}.json"),
+        help="Path to the benchmark JSON file",
+    )
+    parser.add_argument(
+        "--output_json",
+        default=os.path.join(project_root, "Result", "Qwen3_VL_8B", task_group, f"{task_name}.json"),
+        help="Path to the output JSON file",
+    )
+    parser.add_argument(
+        "--frame_base_dir",
+        default=os.path.join(project_root, "Image", "1fps", task_group, benchmark_task_name),
+        help="Path to the extracted frame directory",
+    )
     parser.add_argument("--model_path", required=True, help="Path to the Qwen3-VL model")
-    parser.add_argument("--batch_size", type=int, default=BATCH_SIZE, help="Batch size for generation")
-    parser.add_argument("--max_tokens", type=int, default=MAX_TOKENS, help="Maximum new tokens")
-    parser.add_argument("--max_frames", type=int, default=MAX_FRAMES, help="Maximum frames per request")
+    parser.add_argument("--batch_size", type=int, default=16, help="Batch size for generation")
+    parser.add_argument("--max_tokens", type=int, default=500, help="Maximum new tokens")
+    parser.add_argument("--max_frames", type=int, default=16, help="Maximum frames per request")
     return parser.parse_args()
 
 write_lock = threading.Lock()
