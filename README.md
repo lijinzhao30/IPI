@@ -47,7 +47,7 @@ lijinzhao30/IPIBench
     └── Proactive_Task_Management.tar
 ```
 
-Download the three frame archives from `Frames/` on Hugging Face and extract them into the repository-level [`Image/1fps/`](Image/1fps/) directory. After preparation, the expected layout is:
+Download the three frame archives from `Frames/` on Hugging Face and extract them into the repository-level [`Image/`](Image/) directory. After preparation, the expected layout is:
 
 ```text
 IPI/
@@ -55,7 +55,7 @@ IPI/
 │   ├── Interleaved_Reactive_Proactive/*.json
 │   ├── Proactive_Monitoring/*.json
 │   └── Proactive_Task_Management/*.json
-├── Image/1fps/
+├── Image/
 │   ├── Interleaved_Reactive_Proactive/<task>/<sample_id>/<frame>.png
 │   ├── Proactive_Monitoring/<task>/<sample_id>/<frame>.png
 │   └── Proactive_Task_Management/<task>/<sample_id>/<frame>.png
@@ -75,7 +75,7 @@ Example for `Proactive_Monitoring/Proactive_Timing`:
 ```bash
 python Src/Qwen3_VL_8B/Proactive_Monitoring/Proactive_Timing.py \
   --input_json Benchmark/Proactive_Monitoring/Proactive_Timing.json \
-  --frame_base_dir Image/1fps/Proactive_Monitoring/Proactive_Timing \
+  --frame_base_dir Image/Proactive_Monitoring/Proactive_Timing \
   --output_json Result/Qwen3_VL_8B/Proactive_Monitoring/Proactive_Timing.json \
   --model_path /path/to/local/qwen3-vl-model \
   --batch_size 16 \

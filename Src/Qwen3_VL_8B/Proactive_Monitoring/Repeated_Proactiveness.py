@@ -28,7 +28,7 @@ def parse_args():
     )
     parser.add_argument(
         "--frame_base_dir",
-        default=os.path.join(project_root, "Image", "1fps", task_group, benchmark_task_name),
+        default=os.path.join(project_root, "Image", task_group, benchmark_task_name),
         help="Path to the extracted frame directory",
     )
     parser.add_argument("--model_path", required=True, help="Path to the Qwen3-VL model")
