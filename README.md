@@ -26,7 +26,14 @@ Recent multimodal large language models (MLLMs) have made strong progress on rea
 
 ## Data preparation
 
-The benchmark annotations are available in this repository under [`Benchmark/`](Benchmark/), and the full benchmark package is also hosted on [Hugging Face](https://huggingface.co/datasets/lijinzhao30/IPIBench):
+First clone this repository:
+
+```bash
+git clone https://github.com/lijinzhao30/IPI.git
+cd IPI
+```
+
+The benchmark annotations are already included in [`Benchmark/`](Benchmark/). The full benchmark package, including frame archives, is hosted on [Hugging Face](https://huggingface.co/datasets/lijinzhao30/IPIBench):
 
 ```text
 lijinzhao30/IPIBench
@@ -40,34 +47,7 @@ lijinzhao30/IPIBench
     └── Proactive_Task_Management.tar
 ```
 
-Download the benchmark files and frame archives with `huggingface_hub`:
-
-```bash
-pip install -U huggingface_hub
-
-# Optional proxy endpoint for restricted network environments.
-export HF_ENDPOINT=http://huggingface-proxy-sg.byted.org
-
-huggingface-cli download lijinzhao30/IPIBench \
-  --repo-type dataset \
-  --local-dir . \
-  --include "Benchmark/**" \
-            "Frames/Interleaved_Reactive_Proactive.tar" \
-            "Frames/Proactive_Monitoring.tar" \
-            "Frames/Proactive_Task_Management.tar"
-```
-
-Extract the frames to the layout expected by the inference scripts:
-
-```bash
-mkdir -p Image/1fps
-
-tar -xf Frames/Interleaved_Reactive_Proactive.tar -C Image/1fps
-tar -xf Frames/Proactive_Monitoring.tar -C Image/1fps
-tar -xf Frames/Proactive_Task_Management.tar -C Image/1fps
-```
-
-After extraction, the repository should follow this interface:
+Download the three frame archives from `Frames/` on Hugging Face and extract them into the repository-level [`Image/`](Image/) directory. After preparation, the expected layout is:
 
 ```text
 IPI/
@@ -75,7 +55,7 @@ IPI/
 │   ├── Interleaved_Reactive_Proactive/*.json
 │   ├── Proactive_Monitoring/*.json
 │   └── Proactive_Task_Management/*.json
-├── Image/1fps/
+├── Image/
 │   ├── Interleaved_Reactive_Proactive/<task>/<sample_id>/<frame>.jpg
 │   ├── Proactive_Monitoring/<task>/<sample_id>/<frame>.jpg
 │   └── Proactive_Task_Management/<task>/<sample_id>/<frame>.jpg
@@ -90,20 +70,14 @@ We provide a reference evaluation pipeline using **Qwen3-VL-8B**. The process ha
 
 ### Step 1: run inference
 
-Set the local Qwen3-VL model path:
-
-```bash
-export QWEN3_VL_MODEL_PATH=/path/to/Qwen3-VL-8B-Instruct
-```
-
 Example for `Proactive_Monitoring/Proactive_Timing`:
 
 ```bash
 python Src/Qwen3_VL_8B/Proactive_Monitoring/Proactive_Timing.py \
   --input_json Benchmark/Proactive_Monitoring/Proactive_Timing.json \
-  --frame_base_dir Image/1fps/Proactive_Monitoring/Proactive_Timing \
+  --frame_base_dir Image/Proactive_Monitoring/Proactive_Timing \
   --output_json Result/Qwen3_VL_8B/Proactive_Monitoring/Proactive_Timing.json \
-  --model_path "$QWEN3_VL_MODEL_PATH" \
+  --model_path /path/to/local/qwen3-vl-model \
   --batch_size 16 \
   --max_tokens 500 \
   --max_frames 16

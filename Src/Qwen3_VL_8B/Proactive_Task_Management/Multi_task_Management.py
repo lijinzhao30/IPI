@@ -15,8 +15,7 @@ TASK_GROUP = "Proactive_Task_Management"
 TASK_NAME = "Multi_task_Management"
 INPUT_JSON = os.path.join(PROJECT_ROOT, "Benchmark", TASK_GROUP, f"{TASK_NAME}.json")
 OUTPUT_JSON = os.path.join(PROJECT_ROOT, "Result", "Qwen3_VL_8B", TASK_GROUP, "Multi_task_Management.json")
-FRAME_BASE_DIR = os.path.join(PROJECT_ROOT, "Image", "1fps", TASK_GROUP, TASK_NAME)
-MODEL_PATH = os.environ.get("QWEN3_VL_MODEL_PATH", "/mnt/bn/2d-videos/ljz/Streaming_AI/model/Qwen3-VL-8B-Instruct")
+FRAME_BASE_DIR = os.path.join(PROJECT_ROOT, "Image", TASK_GROUP, TASK_NAME)
 BATCH_SIZE = 16
 MAX_TOKENS = 500
 MAX_FRAMES = 16
@@ -26,7 +25,7 @@ def parse_args():
     parser.add_argument("--input_json", default=INPUT_JSON, help="Path to the benchmark JSON file")
     parser.add_argument("--output_json", default=OUTPUT_JSON, help="Path to the output JSON file")
     parser.add_argument("--frame_base_dir", default=FRAME_BASE_DIR, help="Path to the extracted frame directory")
-    parser.add_argument("--model_path", default=MODEL_PATH, help="Path to the Qwen3-VL model")
+    parser.add_argument("--model_path", required=True, help="Path to the Qwen3-VL model")
     parser.add_argument("--batch_size", type=int, default=BATCH_SIZE, help="Batch size for generation")
     parser.add_argument("--max_tokens", type=int, default=MAX_TOKENS, help="Maximum new tokens")
     parser.add_argument("--max_frames", type=int, default=MAX_FRAMES, help="Maximum frames per request")
@@ -73,12 +72,11 @@ def get_current_target_times(state: SampleState) -> List[int]:
     return state.target_times1 if state.current_interval == 0 else state.target_times2
 
 def main():
-    global INPUT_JSON, OUTPUT_JSON, FRAME_BASE_DIR, MODEL_PATH, BATCH_SIZE, MAX_TOKENS, MAX_FRAMES
+    global INPUT_JSON, OUTPUT_JSON, FRAME_BASE_DIR, BATCH_SIZE, MAX_TOKENS, MAX_FRAMES
     args = parse_args()
     INPUT_JSON = args.input_json
     OUTPUT_JSON = args.output_json
     FRAME_BASE_DIR = args.frame_base_dir
-    MODEL_PATH = args.model_path
     BATCH_SIZE = args.batch_size
     MAX_TOKENS = args.max_tokens
     MAX_FRAMES = args.max_frames
@@ -104,12 +102,12 @@ def main():
 
     print("Loading model...")
     model = Qwen3VLForConditionalGeneration.from_pretrained(
-        MODEL_PATH,
+        args.model_path,
         dtype=torch.bfloat16,
         attn_implementation="flash_attention_2",
         device_map="auto",
     )
-    processor = AutoProcessor.from_pretrained(MODEL_PATH)
+    processor = AutoProcessor.from_pretrained(args.model_path)
     processor.tokenizer.padding_side = 'left'
     print("Model loaded.")
 
