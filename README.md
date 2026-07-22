@@ -1,6 +1,10 @@
 # IPIBench: Evaluating Interactive Proactive Intelligence of MLLMs under Continuous Streams
 
-[Project Page](https://lijinzhao30.github.io/IPIBench/) · [Paper](https://lijinzhao30.github.io/IPIBench/paper.pdf)
+<p align="center">
+  <a href="https://lijinzhao30.github.io/IPIBench/"><img src="https://img.shields.io/badge/Project-Page-blue?logo=githubpages" alt="Project Page"></a>
+  <a href="https://lijinzhao30.github.io/IPIBench/paper.pdf"><img src="https://img.shields.io/badge/Paper-PDF-red?logo=adobeacrobatreader" alt="Paper"></a>
+  <a href="Benchmark/"><img src="https://img.shields.io/badge/Benchmark-IPIBench-orange?logo=huggingface" alt="Benchmark"></a>
+</p>
 
 ## Overview
 
@@ -20,6 +24,117 @@ Recent multimodal large language models (MLLMs) have made strong progress on rea
 - We conduct systematic evaluations and failure analyses on proprietary, open-source, and online streaming models, revealing unstable proactive triggering and weak multi-turn interaction coordination.
 - We propose **IPI-Agent**, a training-free agentic framework with an interaction-control policy and temporal-gating mechanism, improving proactive triggering stability and multi-turn coordination for existing offline MLLMs.
 
+## Data preparation
+
+The benchmark annotations are available in this repository under [`Benchmark/`](Benchmark/), and the full benchmark package is also hosted on [Hugging Face](https://huggingface.co/datasets/lijinzhao30/IPIBench):
+
+```text
+lijinzhao30/IPIBench
+├── Benchmark/
+│   ├── Interleaved_Reactive_Proactive/
+│   ├── Proactive_Monitoring/
+│   └── Proactive_Task_Management/
+└── Frames/
+    ├── Interleaved_Reactive_Proactive.tar
+    ├── Proactive_Monitoring.tar
+    └── Proactive_Task_Management.tar
+```
+
+Download the benchmark files and frame archives with `huggingface_hub`:
+
+```bash
+pip install -U huggingface_hub
+
+# Optional proxy endpoint for restricted network environments.
+export HF_ENDPOINT=http://huggingface-proxy-sg.byted.org
+
+huggingface-cli download lijinzhao30/IPIBench \
+  --repo-type dataset \
+  --local-dir . \
+  --include "Benchmark/**" \
+            "Frames/Interleaved_Reactive_Proactive.tar" \
+            "Frames/Proactive_Monitoring.tar" \
+            "Frames/Proactive_Task_Management.tar"
+```
+
+Extract the frames to the layout expected by the inference scripts:
+
+```bash
+mkdir -p Image/1fps
+
+tar -xf Frames/Interleaved_Reactive_Proactive.tar -C Image/1fps
+tar -xf Frames/Proactive_Monitoring.tar -C Image/1fps
+tar -xf Frames/Proactive_Task_Management.tar -C Image/1fps
+```
+
+After extraction, the repository should follow this interface:
+
+```text
+IPI/
+├── Benchmark/
+│   ├── Interleaved_Reactive_Proactive/*.json
+│   ├── Proactive_Monitoring/*.json
+│   └── Proactive_Task_Management/*.json
+├── Image/1fps/
+│   ├── Interleaved_Reactive_Proactive/<task>/<sample_id>/<frame>.jpg
+│   ├── Proactive_Monitoring/<task>/<sample_id>/<frame>.jpg
+│   └── Proactive_Task_Management/<task>/<sample_id>/<frame>.jpg
+├── Src/Qwen3_VL_8B/
+├── Evaluate/
+└── Result/Qwen3_VL_8B/
+```
+
+## Evaluation
+
+We provide a reference evaluation pipeline using **Qwen3-VL-8B**. The process has two stages: first run inference to produce a result JSON file, then run the corresponding evaluator to compute the final score.
+
+### Step 1: run inference
+
+Set the local Qwen3-VL model path:
+
+```bash
+export QWEN3_VL_MODEL_PATH=/path/to/Qwen3-VL-8B-Instruct
+```
+
+Example for `Proactive_Monitoring/Proactive_Timing`:
+
+```bash
+python Src/Qwen3_VL_8B/Proactive_Monitoring/Proactive_Timing.py \
+  --input_json Benchmark/Proactive_Monitoring/Proactive_Timing.json \
+  --frame_base_dir Image/1fps/Proactive_Monitoring/Proactive_Timing \
+  --output_json Result/Qwen3_VL_8B/Proactive_Monitoring/Proactive_Timing.json \
+  --model_path "$QWEN3_VL_MODEL_PATH" \
+  --batch_size 16 \
+  --max_tokens 500 \
+  --max_frames 16
+```
+
+The inference script writes a JSON file under `Result/Qwen3_VL_8B/<task_group>/<task_name>.json`. This output path is the input consumed by the scoring script in the next step.
+
+### Step 2: compute the score
+
+Use the evaluator with the result JSON from Step 1 and the matching benchmark JSON:
+
+```bash
+python Evaluate/Proactive_Monitoring/Proactive_Timing.py \
+  --result Result/Qwen3_VL_8B/Proactive_Monitoring/Proactive_Timing.json \
+  --benchmark Benchmark/Proactive_Monitoring/Proactive_Timing.json
+```
+
+The same two-step interface applies to the released tasks:
+
+| Task group | Task name | Inference script | Evaluation script |
+| --- | --- | --- | --- |
+| `Proactive_Monitoring` | `Proactive_Timing` | `Src/Qwen3_VL_8B/Proactive_Monitoring/Proactive_Timing.py` | `Evaluate/Proactive_Monitoring/Proactive_Timing.py` |
+| `Proactive_Monitoring` | `Proactive_Understanding` | `Src/Qwen3_VL_8B/Proactive_Monitoring/Proactive_Understanding.py` | `Evaluate/Proactive_Monitoring/Proactive_Understanding.py` |
+| `Proactive_Monitoring` | `Repeated_Proactiveness` | `Src/Qwen3_VL_8B/Proactive_Monitoring/Repeated_Proactiveness.py` | `Evaluate/Proactive_Monitoring/Repeated_Proactiveness.py` |
+| `Proactive_Task_Management` | `Multi_task_Management` | `Src/Qwen3_VL_8B/Proactive_Task_Management/Multi_task_Management.py` | `Evaluate/Proactive_Task_Management/Multi_task_Management.py` |
+| `Proactive_Task_Management` | `Task_Cancellation` | `Src/Qwen3_VL_8B/Proactive_Task_Management/Task_Cancellation.py` | `Evaluate/Proactive_Task_Management/Task_Cancellation.py` |
+| `Proactive_Task_Management` | `Task_Modification` | `Src/Qwen3_VL_8B/Proactive_Task_Management/Task_Modification.py` | `Evaluate/Proactive_Task_Management/Task_Modification.py` |
+| `Interleaved_Reactive_Proactive` | `Reactive_after_Proactive` | `Src/Qwen3_VL_8B/Interleaved_Reactive_Proactive/Reactive_after_Proactive.py` | `Evaluate/Interleaved_Reactive_Proactive/Reactive_after_Proactive.py` |
+| `Interleaved_Reactive_Proactive` | `Reactive_to_Proactive` | `Src/Qwen3_VL_8B/Interleaved_Reactive_Proactive/Reactive_to_Proactive.py` | `Evaluate/Interleaved_Reactive_Proactive/Reactive_to_Proactive.py` |
+| `Interleaved_Reactive_Proactive` | `Reactive_under_Proactive` | `Src/Qwen3_VL_8B/Interleaved_Reactive_Proactive/Reactive_under_Proactive.py` | `Evaluate/Interleaved_Reactive_Proactive/Reactive_under_Proactive.py` |
+
 ## IPI-Agent
 
 IPI-Agent turns existing offline MLLMs into more stable, stateful streaming assistants without additional training. It separates interaction control, temporal gating, memory, and response generation so that the agent can decide when to respond, when to stay silent, and how to preserve context across evolving user requests.
@@ -28,10 +143,9 @@ IPI-Agent turns existing offline MLLMs into more stable, stateful streaming assi
 
 ## Repository status
 
-This repository is currently being prepared for release.
-
-- ✅ Project assets and paper overview are available.
-- 🚧 Code is coming soon.
+- ✅ **IPIBench data**: benchmark annotations are released in this repository and the frame archives are available on Hugging Face.
+- ✅ **Reference evaluation code**: a Qwen3-VL-8B based example inference and evaluation pipeline is released under [`Src/Qwen3_VL_8B/`](Src/Qwen3_VL_8B/) and [`Evaluate/`](Evaluate/).
+- 🚧 **IPI-Agent code**: coming soon.
 
 ## Citation
 

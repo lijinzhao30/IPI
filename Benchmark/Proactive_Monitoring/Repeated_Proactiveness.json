@@ -1,0 +1,5586 @@
+[
+    {
+        "id": 1,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_test_0000964",
+        "video_st": 0,
+        "video_ed": 63,
+        "label": "BaseballPitch",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts pitching a baseball; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 8,
+                "end_time": 15
+            },
+            {
+                "trigger_time": 43,
+                "end_time": 47
+            },
+            {
+                "trigger_time": 53,
+                "end_time": 56
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_test_0000737",
+        "video_st": 0,
+        "video_ed": 147,
+        "label": "CleanAndJerk",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts clean and jerking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 21,
+                "end_time": 43
+            },
+            {
+                "trigger_time": 81,
+                "end_time": 90
+            },
+            {
+                "trigger_time": 117,
+                "end_time": 134
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_test_0001307",
+        "video_st": 0,
+        "video_ed": 102,
+        "label": "CleanAndJerk",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts cleaning and jerking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 13,
+                "end_time": 28
+            },
+            {
+                "trigger_time": 39,
+                "end_time": 54
+            },
+            {
+                "trigger_time": 78,
+                "end_time": 91
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_test_0001307",
+        "video_st": 93,
+        "video_ed": 204,
+        "label": "CleanAndJerk",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts cleaning and jerking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 93
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 104,
+                "end_time": 124
+            },
+            {
+                "trigger_time": 141,
+                "end_time": 160
+            },
+            {
+                "trigger_time": 176,
+                "end_time": 198
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_test_0000897",
+        "video_st": 14,
+        "video_ed": 51,
+        "label": "CricketBowling",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts bowling in cricket; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 14
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 18,
+                "end_time": 21
+            },
+            {
+                "trigger_time": 34,
+                "end_time": 37
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_test_0000897",
+        "video_st": 39,
+        "video_ed": 96,
+        "label": "CricketBowling",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts bowling in cricket; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 39
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 53,
+                "end_time": 56
+            },
+            {
+                "trigger_time": 65,
+                "end_time": 67
+            },
+            {
+                "trigger_time": 89,
+                "end_time": 91
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_test_0000238",
+        "video_st": 0,
+        "video_ed": 38,
+        "label": "GolfSwing",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts swinging a golf club; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 10,
+                "end_time": 15
+            },
+            {
+                "trigger_time": 21,
+                "end_time": 31
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_test_0001163",
+        "video_st": 0,
+        "video_ed": 45,
+        "label": "GolfSwing",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts swinging a golf club; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 6,
+                "end_time": 8
+            },
+            {
+                "trigger_time": 23,
+                "end_time": 25
+            },
+            {
+                "trigger_time": 34,
+                "end_time": 40
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_test_0001163",
+        "video_st": 42,
+        "video_ed": 100,
+        "label": "GolfSwing",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts swinging a golf club; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 42
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 47,
+                "end_time": 66
+            },
+            {
+                "trigger_time": 79,
+                "end_time": 83
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_test_0001072",
+        "video_st": 0,
+        "video_ed": 92,
+        "label": "HammerThrow",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts throwing a hammer; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 7,
+                "end_time": 14
+            },
+            {
+                "trigger_time": 39,
+                "end_time": 44
+            },
+            {
+                "trigger_time": 63,
+                "end_time": 76
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_test_0001072",
+        "video_st": 78,
+        "video_ed": 180,
+        "label": "HammerThrow",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts throwing a hammer; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 78
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 94,
+                "end_time": 100
+            },
+            {
+                "trigger_time": 117,
+                "end_time": 131
+            },
+            {
+                "trigger_time": 155,
+                "end_time": 160
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_test_0001072",
+        "video_st": 162,
+        "video_ed": 284,
+        "label": "HammerThrow",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts throwing a hammer; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 162
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 182,
+                "end_time": 194
+            },
+            {
+                "trigger_time": 248,
+                "end_time": 255
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_test_0000896",
+        "video_st": 0,
+        "video_ed": 56,
+        "label": "HighJump",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts high jumping; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 19,
+                "end_time": 24
+            },
+            {
+                "trigger_time": 30,
+                "end_time": 34
+            },
+            {
+                "trigger_time": 41,
+                "end_time": 47
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_test_0000896",
+        "video_st": 49,
+        "video_ed": 82,
+        "label": "HighJump",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts high jumping; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 49
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 58,
+                "end_time": 64
+            },
+            {
+                "trigger_time": 70,
+                "end_time": 78
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_test_0000355",
+        "video_st": 0,
+        "video_ed": 645,
+        "label": "LongJump",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts long jumping; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 234,
+                "end_time": 240
+            },
+            {
+                "trigger_time": 246,
+                "end_time": 248
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_test_0000444",
+        "video_st": 0,
+        "video_ed": 75,
+        "label": "PoleVault",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts pole vaulting; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 13,
+                "end_time": 22
+            },
+            {
+                "trigger_time": 37,
+                "end_time": 42
+            },
+            {
+                "trigger_time": 55,
+                "end_time": 63
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_test_0001066",
+        "video_st": 0,
+        "video_ed": 80,
+        "label": "Shotput",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts shot putting; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 6,
+                "end_time": 10
+            },
+            {
+                "trigger_time": 23,
+                "end_time": 35
+            },
+            {
+                "trigger_time": 57,
+                "end_time": 68
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_test_0001066",
+        "video_st": 70,
+        "video_ed": 152,
+        "label": "Shotput",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts shot putting; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 70
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 82,
+                "end_time": 85
+            },
+            {
+                "trigger_time": 93,
+                "end_time": 100
+            },
+            {
+                "trigger_time": 133,
+                "end_time": 140
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_test_0001527",
+        "video_st": 0,
+        "video_ed": 93,
+        "label": "Shotput",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts shot putting; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 8,
+                "end_time": 15
+            },
+            {
+                "trigger_time": 26,
+                "end_time": 28
+            },
+            {
+                "trigger_time": 72,
+                "end_time": 80
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_test_0001527",
+        "video_st": 82,
+        "video_ed": 212,
+        "label": "Shotput",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts shot putting; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 82
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 95,
+                "end_time": 97
+            },
+            {
+                "trigger_time": 142,
+                "end_time": 147
+            },
+            {
+                "trigger_time": 160,
+                "end_time": 165
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_test_0001153",
+        "video_st": 0,
+        "video_ed": 101,
+        "label": "SoccerPenalty",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts taking a soccer penalty; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 70,
+                "end_time": 72
+            },
+            {
+                "trigger_time": 98,
+                "end_time": 100
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_test_0001409",
+        "video_st": 0,
+        "video_ed": 99,
+        "label": "SoccerPenalty",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts taking a soccer penalty; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 20,
+                "end_time": 22
+            },
+            {
+                "trigger_time": 58,
+                "end_time": 59
+            },
+            {
+                "trigger_time": 81,
+                "end_time": 84
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_test_0000987",
+        "video_st": 104,
+        "video_ed": 184,
+        "label": "ThrowDiscus",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts throwing the discus; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 104
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 108,
+                "end_time": 115
+            },
+            {
+                "trigger_time": 129,
+                "end_time": 132
+            },
+            {
+                "trigger_time": 162,
+                "end_time": 168
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000687",
+        "video_st": 0,
+        "video_ed": 32,
+        "label": "BaseballPitch",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts pitching a baseball; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 6,
+                "end_time": 7
+            },
+            {
+                "trigger_time": 18,
+                "end_time": 20
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000690",
+        "video_st": 11,
+        "video_ed": 155,
+        "label": "BaseballPitch",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts pitching a baseball; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 11
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 15,
+                "end_time": 18
+            },
+            {
+                "trigger_time": 35,
+                "end_time": 38
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000690",
+        "video_st": 40,
+        "video_ed": 280,
+        "label": "BaseballPitch",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts pitching a baseball; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 40
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 157,
+                "end_time": 161
+            },
+            {
+                "trigger_time": 252,
+                "end_time": 256
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000060",
+        "video_st": 0,
+        "video_ed": 60,
+        "label": "Billiards",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts playing billiards; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 24,
+                "end_time": 31
+            },
+            {
+                "trigger_time": 51,
+                "end_time": 56
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000060",
+        "video_st": 65,
+        "video_ed": 132,
+        "label": "Billiards",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts playing billiards; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 65
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 74,
+                "end_time": 76
+            },
+            {
+                "trigger_time": 101,
+                "end_time": 105
+            },
+            {
+                "trigger_time": 124,
+                "end_time": 127
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000060",
+        "video_st": 129,
+        "video_ed": 149,
+        "label": "Billiards",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts playing billiards; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 129
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 134,
+                "end_time": 136
+            },
+            {
+                "trigger_time": 142,
+                "end_time": 145
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000159",
+        "video_st": 0,
+        "video_ed": 229,
+        "label": "CleanAndJerk",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts cleaning and jerking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 36,
+                "end_time": 51
+            },
+            {
+                "trigger_time": 99,
+                "end_time": 123
+            },
+            {
+                "trigger_time": 134,
+                "end_time": 136
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000313",
+        "video_st": 21,
+        "video_ed": 50,
+        "label": "HammerThrow",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts throwing a hammer; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 21
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 25,
+                "end_time": 29
+            },
+            {
+                "trigger_time": 37,
+                "end_time": 45
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000313",
+        "video_st": 47,
+        "video_ed": 131,
+        "label": "HammerThrow",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts throwing a hammer; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 47
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 52,
+                "end_time": 62
+            },
+            {
+                "trigger_time": 74,
+                "end_time": 81
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000317",
+        "video_st": 0,
+        "video_ed": 60,
+        "label": "HammerThrow",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts hammer throwing; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 6,
+                "end_time": 16
+            },
+            {
+                "trigger_time": 54,
+                "end_time": 57
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000317",
+        "video_st": 103,
+        "video_ed": 150,
+        "label": "HammerThrow",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts throwing a hammer; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 103
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 106,
+                "end_time": 112
+            },
+            {
+                "trigger_time": 138,
+                "end_time": 141
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000317",
+        "video_st": 143,
+        "video_ed": 214,
+        "label": "HammerThrow",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts throwing a hammer; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 143
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 152,
+                "end_time": 159
+            },
+            {
+                "trigger_time": 198,
+                "end_time": 202
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000482",
+        "video_st": 0,
+        "video_ed": 88,
+        "label": "LongJump",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts long jumping; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 28,
+                "end_time": 41
+            },
+            {
+                "trigger_time": 51,
+                "end_time": 59
+            },
+            {
+                "trigger_time": 66,
+                "end_time": 69
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000483",
+        "video_st": 0,
+        "video_ed": 89,
+        "label": "LongJump",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts long jumping; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 54,
+                "end_time": 70
+            },
+            {
+                "trigger_time": 80,
+                "end_time": 89
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000485",
+        "video_st": 0,
+        "video_ed": 86,
+        "label": "LongJump",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts long jumping; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 16,
+                "end_time": 24
+            },
+            {
+                "trigger_time": 37,
+                "end_time": 47
+            },
+            {
+                "trigger_time": 65,
+                "end_time": 74
+            }
+        ]
+    },
+    {
+        "id": 39,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000485",
+        "video_st": 76,
+        "video_ed": 182,
+        "label": "LongJump",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts long jumping; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 76
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 88,
+                "end_time": 100
+            },
+            {
+                "trigger_time": 131,
+                "end_time": 139
+            },
+            {
+                "trigger_time": 152,
+                "end_time": 163
+            }
+        ]
+    },
+    {
+        "id": 40,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000485",
+        "video_st": 165,
+        "video_ed": 274,
+        "label": "LongJump",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts long jumping; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 165
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 184,
+                "end_time": 190
+            },
+            {
+                "trigger_time": 206,
+                "end_time": 216
+            },
+            {
+                "trigger_time": 239,
+                "end_time": 242
+            }
+        ]
+    },
+    {
+        "id": 41,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000661",
+        "video_st": 0,
+        "video_ed": 115,
+        "label": "PoleVault",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts pole vaulting; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 58,
+                "end_time": 65
+            },
+            {
+                "trigger_time": 110,
+                "end_time": 115
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000667",
+        "video_st": 0,
+        "video_ed": 332,
+        "label": "PoleVault",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts pole vaulting; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 6,
+                "end_time": 14
+            },
+            {
+                "trigger_time": 30,
+                "end_time": 35
+            },
+            {
+                "trigger_time": 47,
+                "end_time": 54
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000781",
+        "video_st": 0,
+        "video_ed": 73,
+        "label": "Shotput",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts shot putting; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 20,
+                "end_time": 20
+            },
+            {
+                "trigger_time": 35,
+                "end_time": 40
+            },
+            {
+                "trigger_time": 52,
+                "end_time": 57
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000781",
+        "video_st": 59,
+        "video_ed": 127,
+        "label": "Shotput",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts shot putting; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 59
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 75,
+                "end_time": 80
+            },
+            {
+                "trigger_time": 88,
+                "end_time": 94
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000784",
+        "video_st": 0,
+        "video_ed": 88,
+        "label": "Shotput",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts shot putting; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 7,
+                "end_time": 11
+            },
+            {
+                "trigger_time": 21,
+                "end_time": 24
+            },
+            {
+                "trigger_time": 46,
+                "end_time": 50
+            }
+        ]
+    },
+    {
+        "id": 46,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000859",
+        "video_st": 0,
+        "video_ed": 62,
+        "label": "SoccerPenalty",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts taking a soccer penalty; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 6,
+                "end_time": 7
+            },
+            {
+                "trigger_time": 27,
+                "end_time": 30
+            },
+            {
+                "trigger_time": 39,
+                "end_time": 46
+            }
+        ]
+    },
+    {
+        "id": 47,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000860",
+        "video_st": 0,
+        "video_ed": 31,
+        "label": "SoccerPenalty",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts taking a soccer penalty; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 7,
+                "end_time": 10
+            },
+            {
+                "trigger_time": 20,
+                "end_time": 26
+            }
+        ]
+    },
+    {
+        "id": 48,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000934",
+        "video_st": 0,
+        "video_ed": 76,
+        "label": "TennisSwing",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts swinging a tennis racket; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 10,
+                "end_time": 10
+            },
+            {
+                "trigger_time": 29,
+                "end_time": 33
+            },
+            {
+                "trigger_time": 55,
+                "end_time": 58
+            }
+        ]
+    },
+    {
+        "id": 49,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_test_0000324",
+        "video_st": 0,
+        "video_ed": 148,
+        "label": "BaseballPitch",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts pitching a baseball; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "end_time": 53,
+                "trigger_time": 50
+            },
+            {
+                "end_time": 122,
+                "trigger_time": 117
+            }
+        ]
+    },
+    {
+        "id": 50,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_test_0001038",
+        "video_st": 0,
+        "video_ed": 121,
+        "label": "BaseballPitch",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts pitching a baseball; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "end_time": 54,
+                "trigger_time": 51
+            },
+            {
+                "end_time": 114,
+                "trigger_time": 111
+            }
+        ]
+    },
+    {
+        "id": 51,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_test_0000560",
+        "video_st": 0,
+        "video_ed": 50,
+        "label": "BasketballDunk",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts dunking a basketball; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "end_time": 9,
+                "trigger_time": 9
+            },
+            {
+                "end_time": 20,
+                "trigger_time": 20
+            },
+            {
+                "end_time": 36,
+                "trigger_time": 35
+            }
+        ]
+    },
+    {
+        "id": 52,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_test_0000051",
+        "video_st": 0,
+        "video_ed": 92,
+        "label": "Billiards",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts playing billiards; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "end_time": 55,
+                "trigger_time": 52
+            },
+            {
+                "end_time": 70,
+                "trigger_time": 68
+            },
+            {
+                "end_time": 82,
+                "trigger_time": 80
+            }
+        ]
+    },
+    {
+        "id": 53,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_test_0000051",
+        "video_st": 84,
+        "video_ed": 115,
+        "label": "Billiards",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts playing billiards; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 84
+            }
+        ],
+        "answer": [
+            {
+                "end_time": 97,
+                "trigger_time": 94
+            },
+            {
+                "end_time": 110,
+                "trigger_time": 108
+            }
+        ]
+    },
+    {
+        "id": 54,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_test_0001135",
+        "video_st": 0,
+        "video_ed": 29,
+        "label": "FrisbeeCatch",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts catching a frisbee; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "end_time": 10,
+                "trigger_time": 8
+            },
+            {
+                "end_time": 27,
+                "trigger_time": 17
+            }
+        ]
+    },
+    {
+        "id": 55,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_test_0000188",
+        "video_st": 0,
+        "video_ed": 503,
+        "label": "HighJump",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts high jumping; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "end_time": 17,
+                "trigger_time": 14
+            },
+            {
+                "end_time": 27,
+                "trigger_time": 23
+            },
+            {
+                "end_time": 103,
+                "trigger_time": 92
+            }
+        ]
+    },
+    {
+        "id": 56,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_test_0000591",
+        "video_st": 0,
+        "video_ed": 33,
+        "label": "SoccerPenalty",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts taking a soccer penalty; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "end_time": 11,
+                "trigger_time": 11
+            },
+            {
+                "end_time": 25,
+                "trigger_time": 25
+            }
+        ]
+    },
+    {
+        "id": 57,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_test_0000689",
+        "video_st": 0,
+        "video_ed": 129,
+        "label": "SoccerPenalty",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts taking a soccer penalty; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "end_time": 65,
+                "trigger_time": 63
+            },
+            {
+                "end_time": 103,
+                "trigger_time": 102
+            }
+        ]
+    },
+    {
+        "id": 58,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_test_0001118",
+        "video_st": 0,
+        "video_ed": 70,
+        "label": "SoccerPenalty",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts taking a soccer penalty; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "end_time": 27,
+                "trigger_time": 23
+            },
+            {
+                "end_time": 56,
+                "trigger_time": 49
+            }
+        ]
+    },
+    {
+        "id": 59,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_test_0001556",
+        "video_st": 0,
+        "video_ed": 103,
+        "label": "SoccerPenalty",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts taking a soccer penalty; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "end_time": 55,
+                "trigger_time": 53
+            },
+            {
+                "end_time": 83,
+                "trigger_time": 79
+            }
+        ]
+    },
+    {
+        "id": 60,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_test_0001223",
+        "video_st": 0,
+        "video_ed": 116,
+        "label": "ThrowDiscus",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts throwing the discus; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "end_time": 33,
+                "trigger_time": 28
+            },
+            {
+                "end_time": 82,
+                "trigger_time": 75
+            },
+            {
+                "end_time": 108,
+                "trigger_time": 102
+            }
+        ]
+    },
+    {
+        "id": 61,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000685",
+        "video_st": 50,
+        "video_ed": 67,
+        "label": "BaseballPitch",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts pitching a baseball; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 50
+            }
+        ],
+        "answer": [
+            {
+                "end_time": 58,
+                "trigger_time": 56
+            },
+            {
+                "end_time": 66,
+                "trigger_time": 64
+            }
+        ]
+    },
+    {
+        "id": 62,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000051",
+        "video_st": 0,
+        "video_ed": 169,
+        "label": "Billiards",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts playing billiards; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "end_time": 75,
+                "trigger_time": 68
+            },
+            {
+                "end_time": 90,
+                "trigger_time": 86
+            },
+            {
+                "end_time": 148,
+                "trigger_time": 140
+            }
+        ]
+    },
+    {
+        "id": 63,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000055",
+        "video_st": 0,
+        "video_ed": 71,
+        "label": "Billiards",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts playing billiards; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "end_time": 25,
+                "trigger_time": 21
+            },
+            {
+                "end_time": 51,
+                "trigger_time": 47
+            },
+            {
+                "end_time": 67,
+                "trigger_time": 59
+            }
+        ]
+    },
+    {
+        "id": 64,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000055",
+        "video_st": 69,
+        "video_ed": 103,
+        "label": "Billiards",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts playing billiards; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 69
+            }
+        ],
+        "answer": [
+            {
+                "end_time": 77,
+                "trigger_time": 73
+            },
+            {
+                "end_time": 90,
+                "trigger_time": 86
+            },
+            {
+                "end_time": 99,
+                "trigger_time": 96
+            }
+        ]
+    },
+    {
+        "id": 65,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000055",
+        "video_st": 101,
+        "video_ed": 162,
+        "label": "Billiards",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts playing billiards; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 101
+            }
+        ],
+        "answer": [
+            {
+                "end_time": 108,
+                "trigger_time": 105
+            },
+            {
+                "end_time": 121,
+                "trigger_time": 117
+            },
+            {
+                "end_time": 133,
+                "trigger_time": 128
+            }
+        ]
+    },
+    {
+        "id": 66,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000152",
+        "video_st": 0,
+        "video_ed": 165,
+        "label": "CleanAndJerk",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts cleaning and jerking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "end_time": 28,
+                "trigger_time": 13
+            },
+            {
+                "end_time": 62,
+                "trigger_time": 56
+            },
+            {
+                "end_time": 124,
+                "trigger_time": 99
+            }
+        ]
+    },
+    {
+        "id": 67,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000174",
+        "video_st": 0,
+        "video_ed": 56,
+        "label": "CricketBowling",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts bowling in cricket; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "end_time": 9,
+                "trigger_time": 8
+            },
+            {
+                "end_time": 28,
+                "trigger_time": 26
+            },
+            {
+                "end_time": 45,
+                "trigger_time": 43
+            }
+        ]
+    },
+    {
+        "id": 68,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000174",
+        "video_st": 47,
+        "video_ed": 152,
+        "label": "CricketBowling",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts bowling in cricket; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 47
+            }
+        ],
+        "answer": [
+            {
+                "end_time": 60,
+                "trigger_time": 58
+            },
+            {
+                "end_time": 121,
+                "trigger_time": 119
+            },
+            {
+                "end_time": 137,
+                "trigger_time": 136
+            }
+        ]
+    },
+    {
+        "id": 69,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000182",
+        "video_st": 9,
+        "video_ed": 31,
+        "label": "CricketShot",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts playing a cricket shot; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 9
+            }
+        ],
+        "answer": [
+            {
+                "end_time": 15,
+                "trigger_time": 15
+            },
+            {
+                "end_time": 29,
+                "trigger_time": 28
+            }
+        ]
+    },
+    {
+        "id": 70,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000207",
+        "video_st": 118,
+        "video_ed": 183,
+        "label": "Diving",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts diving; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 118
+            }
+        ],
+        "answer": [
+            {
+                "end_time": 133,
+                "trigger_time": 127
+            },
+            {
+                "end_time": 151,
+                "trigger_time": 148
+            }
+        ]
+    },
+    {
+        "id": 71,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000210",
+        "video_st": 52,
+        "video_ed": 139,
+        "label": "Diving",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts diving; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 52
+            }
+        ],
+        "answer": [
+            {
+                "end_time": 66,
+                "trigger_time": 63
+            },
+            {
+                "end_time": 81,
+                "trigger_time": 79
+            },
+            {
+                "end_time": 90,
+                "trigger_time": 87
+            }
+        ]
+    },
+    {
+        "id": 72,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000365",
+        "video_st": 0,
+        "video_ed": 79,
+        "label": "HighJump",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts high jumping; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "end_time": 24,
+                "trigger_time": 19
+            },
+            {
+                "end_time": 33,
+                "trigger_time": 30
+            },
+            {
+                "end_time": 77,
+                "trigger_time": 70
+            }
+        ]
+    },
+    {
+        "id": 73,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000365",
+        "video_st": 153,
+        "video_ed": 268,
+        "label": "HighJump",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts high jumping; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 153
+            }
+        ],
+        "answer": [
+            {
+                "end_time": 198,
+                "trigger_time": 193
+            },
+            {
+                "end_time": 219,
+                "trigger_time": 213
+            }
+        ]
+    },
+    {
+        "id": 74,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000664",
+        "video_st": 30,
+        "video_ed": 51,
+        "label": "PoleVault",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts pole vaulting; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 30
+            }
+        ],
+        "answer": [
+            {
+                "end_time": 37,
+                "trigger_time": 34
+            },
+            {
+                "end_time": 49,
+                "trigger_time": 44
+            }
+        ]
+    },
+    {
+        "id": 75,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000669",
+        "video_st": 0,
+        "video_ed": 116,
+        "label": "PoleVault",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts pole vaulting; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "end_time": 59,
+                "trigger_time": 53
+            },
+            {
+                "end_time": 68,
+                "trigger_time": 65
+            },
+            {
+                "end_time": 103,
+                "trigger_time": 99
+            }
+        ]
+    },
+    {
+        "id": 76,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000669",
+        "video_st": 105,
+        "video_ed": 152,
+        "label": "PoleVault",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts pole vaulting; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 105
+            }
+        ],
+        "answer": [
+            {
+                "end_time": 120,
+                "trigger_time": 118
+            },
+            {
+                "end_time": 137,
+                "trigger_time": 134
+            },
+            {
+                "end_time": 147,
+                "trigger_time": 143
+            }
+        ]
+    },
+    {
+        "id": 77,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000669",
+        "video_st": 149,
+        "video_ed": 232,
+        "label": "PoleVault",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts pole vaulting; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 149
+            }
+        ],
+        "answer": [
+            {
+                "end_time": 157,
+                "trigger_time": 154
+            },
+            {
+                "end_time": 172,
+                "trigger_time": 165
+            }
+        ]
+    },
+    {
+        "id": 78,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000783",
+        "video_st": 0,
+        "video_ed": 75,
+        "label": "Shotput",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts shot putting; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "end_time": 11,
+                "trigger_time": 6
+            },
+            {
+                "end_time": 27,
+                "trigger_time": 22
+            },
+            {
+                "end_time": 66,
+                "trigger_time": 60
+            }
+        ]
+    },
+    {
+        "id": 79,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000783",
+        "video_st": 68,
+        "video_ed": 119,
+        "label": "Shotput",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts shot putting; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 68
+            }
+        ],
+        "answer": [
+            {
+                "end_time": 81,
+                "trigger_time": 77
+            },
+            {
+                "end_time": 102,
+                "trigger_time": 96
+            },
+            {
+                "end_time": 115,
+                "trigger_time": 113
+            }
+        ]
+    },
+    {
+        "id": 80,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000783",
+        "video_st": 117,
+        "video_ed": 196,
+        "label": "Shotput",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts shot putting; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 117
+            }
+        ],
+        "answer": [
+            {
+                "end_time": 124,
+                "trigger_time": 121
+            },
+            {
+                "end_time": 166,
+                "trigger_time": 161
+            },
+            {
+                "end_time": 179,
+                "trigger_time": 177
+            }
+        ]
+    },
+    {
+        "id": 81,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000785",
+        "video_st": 0,
+        "video_ed": 97,
+        "label": "Shotput",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts shot putting; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "end_time": 18,
+                "trigger_time": 15
+            },
+            {
+                "end_time": 96,
+                "trigger_time": 89
+            }
+        ]
+    },
+    {
+        "id": 82,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000858",
+        "video_st": 0,
+        "video_ed": 111,
+        "label": "SoccerPenalty",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts taking a soccer penalty; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "end_time": 44,
+                "trigger_time": 40
+            },
+            {
+                "end_time": 58,
+                "trigger_time": 56
+            }
+        ]
+    },
+    {
+        "id": 83,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000941",
+        "video_st": 0,
+        "video_ed": 118,
+        "label": "ThrowDiscus",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts throwing discus; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "end_time": 27,
+                "trigger_time": 22
+            },
+            {
+                "end_time": 71,
+                "trigger_time": 66
+            },
+            {
+                "end_time": 87,
+                "trigger_time": 80
+            }
+        ]
+    },
+    {
+        "id": 84,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000941",
+        "video_st": 89,
+        "video_ed": 187,
+        "label": "ThrowDiscus",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts throwing a discus; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 89
+            }
+        ],
+        "answer": [
+            {
+                "end_time": 128,
+                "trigger_time": 120
+            },
+            {
+                "end_time": 148,
+                "trigger_time": 146
+            },
+            {
+                "end_time": 163,
+                "trigger_time": 157
+            }
+        ]
+    },
+    {
+        "id": 85,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000941",
+        "video_st": 165,
+        "video_ed": 231,
+        "label": "ThrowDiscus",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts throwing discus; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 165
+            }
+        ],
+        "answer": [
+            {
+                "end_time": 193,
+                "trigger_time": 189
+            },
+            {
+                "end_time": 211,
+                "trigger_time": 205
+            }
+        ]
+    },
+    {
+        "id": 86,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000988",
+        "video_st": 72,
+        "video_ed": 124,
+        "label": "VolleyballSpiking",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts spiking a volleyball; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 72
+            }
+        ],
+        "answer": [
+            {
+                "end_time": 97,
+                "trigger_time": 81
+            },
+            {
+                "end_time": 106,
+                "trigger_time": 105
+            }
+        ]
+    },
+    {
+        "id": 87,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000990",
+        "video_st": 0,
+        "video_ed": 67,
+        "label": "VolleyballSpiking",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts spiking a volleyball; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            }
+        ],
+        "answer": [
+            {
+                "end_time": 55,
+                "trigger_time": 54
+            },
+            {
+                "end_time": 62,
+                "trigger_time": 62
+            }
+        ]
+    },
+    {
+        "id": 88,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "thumos14",
+        "video_name": "video_validation_0000990",
+        "video_st": 81,
+        "video_ed": 98,
+        "label": "VolleyballSpiking",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person starts spiking a volleyball; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 81
+            }
+        ],
+        "answer": [
+            {
+                "end_time": 85,
+                "trigger_time": 84
+            },
+            {
+                "end_time": 93,
+                "trigger_time": 93
+            }
+        ]
+    },
+    {
+        "id": 89,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "f0f5f45c-1576-4408-8ed0-a80747a51bd5",
+        "video_st": 277,
+        "video_ed": 326,
+        "label": "screw driver",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the screw driver is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 277
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 281,
+                "end_time": 285
+            },
+            {
+                "trigger_time": 293,
+                "end_time": 296
+            }
+        ]
+    },
+    {
+        "id": 90,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "c52530be-f470-4c44-ae1a-c8aee924ff46",
+        "video_st": 106,
+        "video_ed": 161,
+        "label": "hat",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the hat is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 106
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 110,
+                "end_time": 116
+            },
+            {
+                "trigger_time": 134,
+                "end_time": 137
+            }
+        ]
+    },
+    {
+        "id": 91,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "18a5ccc8-ac50-418c-85a4-dade3e9ca841",
+        "video_st": 62,
+        "video_ed": 116,
+        "label": "white dustbin bag with some capital words written on it",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the white dustbin bag with some capital words written on it is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 62
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 75,
+                "end_time": 84
+            },
+            {
+                "trigger_time": 95,
+                "end_time": 99
+            }
+        ]
+    },
+    {
+        "id": 92,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "a2eb4df2-d29f-4fa6-8d3e-15179de9252b",
+        "video_st": 88,
+        "video_ed": 150,
+        "label": "dark blue bag",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the dark blue bag is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 88
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 102,
+                "end_time": 107
+            },
+            {
+                "trigger_time": 128,
+                "end_time": 133
+            }
+        ]
+    },
+    {
+        "id": 93,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "78a01e40-6ab7-4c4f-b596-b8908eff923b",
+        "video_st": 67,
+        "video_ed": 170,
+        "label": "blue crotchet hat",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the blue crotchet hat is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 67
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 88,
+                "end_time": 91
+            },
+            {
+                "trigger_time": 114,
+                "end_time": 123
+            }
+        ]
+    },
+    {
+        "id": 94,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "b1153fdb-aafc-4d33-b770-7738fc039386",
+        "video_st": 42,
+        "video_ed": 135,
+        "label": "bottle of engine oil with a yellow spray head",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the bottle of engine oil with a yellow spray head is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 42
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 48,
+                "end_time": 54
+            },
+            {
+                "trigger_time": 64,
+                "end_time": 73
+            },
+            {
+                "trigger_time": 83,
+                "end_time": 130
+            }
+        ]
+    },
+    {
+        "id": 95,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "3a3db901-d896-4133-90a9-0a27c4454e73",
+        "video_st": 221,
+        "video_ed": 274,
+        "label": "white rice cooker",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the white rice cooker is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 221
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 239,
+                "end_time": 245
+            },
+            {
+                "trigger_time": 254,
+                "end_time": 257
+            }
+        ]
+    },
+    {
+        "id": 96,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "477894c0-9bec-4271-9852-6d28bc05abfe",
+        "video_st": 127,
+        "video_ed": 458,
+        "label": "black bench vice",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the black bench vice is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 127
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 297,
+                "end_time": 300
+            },
+            {
+                "trigger_time": 335,
+                "end_time": 338
+            }
+        ]
+    },
+    {
+        "id": 97,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "8d22e91b-ed98-4c87-8a25-c937236ca745",
+        "video_st": 285,
+        "video_ed": 338,
+        "label": "white box",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the white box is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 285
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 299,
+                "end_time": 302
+            },
+            {
+                "trigger_time": 312,
+                "end_time": 316
+            }
+        ]
+    },
+    {
+        "id": 98,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "07dfb86a-e013-4542-bdd2-440239700d60",
+        "video_st": 68,
+        "video_ed": 195,
+        "label": "green bucket",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the green bucket is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 68
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 106,
+                "end_time": 132
+            },
+            {
+                "trigger_time": 171,
+                "end_time": 179
+            }
+        ]
+    },
+    {
+        "id": 99,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "07dfb86a-e013-4542-bdd2-440239700d60",
+        "video_st": 224,
+        "video_ed": 373,
+        "label": "green bucket",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the green bucket is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 224
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 305,
+                "end_time": 326
+            },
+            {
+                "trigger_time": 334,
+                "end_time": 365
+            }
+        ]
+    },
+    {
+        "id": 100,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "1eb995af-0fdd-4f0f-a5ba-089d4b8cb445",
+        "video_st": 5,
+        "video_ed": 64,
+        "label": "pink bottle",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the pink bottle is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 5
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 28,
+                "end_time": 32
+            },
+            {
+                "trigger_time": 47,
+                "end_time": 49
+            }
+        ]
+    },
+    {
+        "id": 101,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "87ac4a68-7de8-4583-b43f-6d42b95f1677",
+        "video_st": 80,
+        "video_ed": 204,
+        "label": "Ruscella bottle",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the Ruscella bottle is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 80
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 86,
+                "end_time": 114
+            },
+            {
+                "trigger_time": 120,
+                "end_time": 146
+            },
+            {
+                "trigger_time": 157,
+                "end_time": 199
+            }
+        ]
+    },
+    {
+        "id": 102,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "6c0c2145-2b3d-48cd-a61c-e29d8541218f",
+        "video_st": 198,
+        "video_ed": 280,
+        "label": "white flipflop",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the white flipflop is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 198
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 210,
+                "end_time": 212
+            },
+            {
+                "trigger_time": 223,
+                "end_time": 226
+            },
+            {
+                "trigger_time": 232,
+                "end_time": 248
+            }
+        ]
+    },
+    {
+        "id": 103,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "54892083-4f4a-4535-b0c9-8babf21492f2",
+        "video_st": 67,
+        "video_ed": 156,
+        "label": "syringe tube",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the syringe tube is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 67
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 86,
+                "end_time": 91
+            },
+            {
+                "trigger_time": 112,
+                "end_time": 115
+            }
+        ]
+    },
+    {
+        "id": 104,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "4e361f11-35fe-4f31-b2f0-38c1d6492d44",
+        "video_st": 35,
+        "video_ed": 86,
+        "label": "opened small box with a white top half and a red bottom half",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the opened small box with a white top half and a red bottom half is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 35
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 39,
+                "end_time": 66
+            },
+            {
+                "trigger_time": 72,
+                "end_time": 82
+            }
+        ]
+    },
+    {
+        "id": 105,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "0f4939c3-03cd-4012-8a44-4013c879ceab",
+        "video_st": 233,
+        "video_ed": 279,
+        "label": "bottle soap",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the bottle soap is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 233
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 246,
+                "end_time": 254
+            },
+            {
+                "trigger_time": 271,
+                "end_time": 274
+            }
+        ]
+    },
+    {
+        "id": 106,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "21774b8c-348a-48a0-a372-6f5edddab9ee",
+        "video_st": 20,
+        "video_ed": 79,
+        "label": "large metal bowl with rice and vegetables in it",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the large metal bowl with rice and vegetables in it is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 20
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 26,
+                "end_time": 31
+            },
+            {
+                "trigger_time": 43,
+                "end_time": 46
+            },
+            {
+                "trigger_time": 56,
+                "end_time": 67
+            }
+        ]
+    },
+    {
+        "id": 107,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "8052ffd1-1b08-41f2-9fc6-e2cf080836bd",
+        "video_st": 44,
+        "video_ed": 105,
+        "label": "black marvin hat",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the black marvin hat is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 44
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 82,
+                "end_time": 89
+            },
+            {
+                "trigger_time": 96,
+                "end_time": 99
+            }
+        ]
+    },
+    {
+        "id": 108,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "54b83107-c40b-4588-9ce6-d68d02be6b05",
+        "video_st": 112,
+        "video_ed": 220,
+        "label": "bottle with a red lid",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the bottle with a red lid is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 112
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 116,
+                "end_time": 119
+            },
+            {
+                "trigger_time": 184,
+                "end_time": 216
+            }
+        ]
+    },
+    {
+        "id": 109,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "8e624464-2808-4a90-8d85-854e58946673",
+        "video_st": 60,
+        "video_ed": 141,
+        "label": "red big jerrycan",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the red big jerrycan is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 60
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 95,
+                "end_time": 98
+            },
+            {
+                "trigger_time": 130,
+                "end_time": 136
+            }
+        ]
+    },
+    {
+        "id": 110,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "8e624464-2808-4a90-8d85-854e58946673",
+        "video_st": 741,
+        "video_ed": 784,
+        "label": "red big jerrycan",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the red big jerrycan is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 741
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 753,
+                "end_time": 760
+            },
+            {
+                "trigger_time": 771,
+                "end_time": 774
+            }
+        ]
+    },
+    {
+        "id": 111,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "4d0dd8c7-3d22-419a-92fa-cd784abbf8ca",
+        "video_st": 159,
+        "video_ed": 195,
+        "label": "tooth paste between the transparent glass bowl and the tooth brush",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the tooth paste between the transparent glass bowl and the tooth brush is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 159
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 162,
+                "end_time": 172
+            },
+            {
+                "trigger_time": 185,
+                "end_time": 189
+            }
+        ]
+    },
+    {
+        "id": 112,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "0ba8203a-5825-464b-8d95-32a24e84acf0",
+        "video_st": 38,
+        "video_ed": 103,
+        "label": "paper bag on a green chair",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the paper bag on a green chair is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 38
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 49,
+                "end_time": 51
+            },
+            {
+                "trigger_time": 83,
+                "end_time": 86
+            }
+        ]
+    },
+    {
+        "id": 113,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "fb2daacd-0cad-48d1-9687-9c6af95204db",
+        "video_st": 863,
+        "video_ed": 908,
+        "label": "aluminum cooking pot",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the aluminum cooking pot is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 863
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 867,
+                "end_time": 869
+            },
+            {
+                "trigger_time": 882,
+                "end_time": 886
+            }
+        ]
+    },
+    {
+        "id": 114,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "801b5ac5-66c4-431b-94d8-09d56e7e14e6",
+        "video_st": 166,
+        "video_ed": 264,
+        "label": "wooden bag",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the wooden bag is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 166
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 171,
+                "end_time": 198
+            },
+            {
+                "trigger_time": 213,
+                "end_time": 233
+            },
+            {
+                "trigger_time": 253,
+                "end_time": 258
+            }
+        ]
+    },
+    {
+        "id": 115,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "db84f0aa-15a2-4cfb-a89e-173b0aea4720",
+        "video_st": 212,
+        "video_ed": 254,
+        "label": "cooking pot",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the cooking pot is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 212
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 218,
+                "end_time": 228
+            },
+            {
+                "trigger_time": 245,
+                "end_time": 248
+            }
+        ]
+    },
+    {
+        "id": 116,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "bab491fc-1ce5-4b95-beef-7d146fc182ca",
+        "video_st": 86,
+        "video_ed": 192,
+        "label": "black stool",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the black stool is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 86
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 93,
+                "end_time": 95
+            },
+            {
+                "trigger_time": 183,
+                "end_time": 187
+            }
+        ]
+    },
+    {
+        "id": 117,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "8766b45a-049a-4076-87e9-8421b5ad57c9",
+        "video_st": 428,
+        "video_ed": 477,
+        "label": "pen",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the pen is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 428
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 432,
+                "end_time": 436
+            },
+            {
+                "trigger_time": 447,
+                "end_time": 455
+            },
+            {
+                "trigger_time": 463,
+                "end_time": 469
+            }
+        ]
+    },
+    {
+        "id": 118,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "ee5b3977-6598-4dfd-9199-e36a0d2fd56a",
+        "video_st": 194,
+        "video_ed": 288,
+        "label": "black rectangular toolbox with yellow latches",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the black rectangular toolbox with yellow latches is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 194
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 230,
+                "end_time": 236
+            },
+            {
+                "trigger_time": 253,
+                "end_time": 269
+            }
+        ]
+    },
+    {
+        "id": 119,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "6f7f5312-db3f-42db-98c0-f650a3899568",
+        "video_st": 822,
+        "video_ed": 924,
+        "label": "green mug containing some tea",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the green mug containing some tea is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 822
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 844,
+                "end_time": 863
+            },
+            {
+                "trigger_time": 869,
+                "end_time": 880
+            },
+            {
+                "trigger_time": 910,
+                "end_time": 915
+            }
+        ]
+    },
+    {
+        "id": 120,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "71964a8f-209c-47ad-aab5-373423742898",
+        "video_st": 33,
+        "video_ed": 71,
+        "label": "black headphones",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the black headphones are visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 33
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 37,
+                "end_time": 45
+            },
+            {
+                "trigger_time": 57,
+                "end_time": 60
+            }
+        ]
+    },
+    {
+        "id": 121,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "6ed31e70-fabb-4d86-b42f-f4f0b86c15a6",
+        "video_st": 32,
+        "video_ed": 106,
+        "label": "painting brush",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the painting brush is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 32
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 37,
+                "end_time": 41
+            },
+            {
+                "trigger_time": 76,
+                "end_time": 94
+            }
+        ]
+    },
+    {
+        "id": 122,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "15e0f4a1-598e-48de-a460-134b6ac5baad",
+        "video_st": 755,
+        "video_ed": 805,
+        "label": "pliers with black and red handles",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the pliers with black and red handles are visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 755
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 782,
+                "end_time": 789
+            },
+            {
+                "trigger_time": 796,
+                "end_time": 801
+            }
+        ]
+    },
+    {
+        "id": 123,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "66db02c4-053b-41ab-8b9f-f467ad1df560",
+        "video_st": 352,
+        "video_ed": 392,
+        "label": "black and yellow drill",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the black and yellow drill is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 352
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 368,
+                "end_time": 372
+            },
+            {
+                "trigger_time": 382,
+                "end_time": 388
+            }
+        ]
+    },
+    {
+        "id": 124,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "ea2ff83d-74ce-41c4-9558-d7380d1f327d",
+        "video_st": 99,
+        "video_ed": 169,
+        "label": "black frying pan on the burner",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the black frying pan on the burner is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 99
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 111,
+                "end_time": 115
+            },
+            {
+                "trigger_time": 139,
+                "end_time": 146
+            },
+            {
+                "trigger_time": 153,
+                "end_time": 163
+            }
+        ]
+    },
+    {
+        "id": 125,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "d20368b6-fac8-49cf-8abe-976a98fd40fe",
+        "video_st": 25,
+        "video_ed": 100,
+        "label": "blue funnel",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the blue funnel is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 25
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 38,
+                "end_time": 43
+            },
+            {
+                "trigger_time": 59,
+                "end_time": 63
+            }
+        ]
+    },
+    {
+        "id": 126,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "969054ff-26bd-4637-8703-02ccaa33867a",
+        "video_st": 161,
+        "video_ed": 228,
+        "label": "blue tent",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the blue tent is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 161
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 175,
+                "end_time": 180
+            },
+            {
+                "trigger_time": 186,
+                "end_time": 189
+            }
+        ]
+    },
+    {
+        "id": 127,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "969054ff-26bd-4637-8703-02ccaa33867a",
+        "video_st": 274,
+        "video_ed": 338,
+        "label": "blue tent",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the blue tent is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 274
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 309,
+                "end_time": 312
+            },
+            {
+                "trigger_time": 323,
+                "end_time": 327
+            }
+        ]
+    },
+    {
+        "id": 128,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "17d96c4e-2df9-47ba-8d27-d0e05591b011",
+        "video_st": 181,
+        "video_ed": 228,
+        "label": "blue tent",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the blue tent is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 181
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 197,
+                "end_time": 200
+            },
+            {
+                "trigger_time": 206,
+                "end_time": 219
+            }
+        ]
+    },
+    {
+        "id": 129,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "4395986f-3c14-407b-9a5f-a558d2a7caf2",
+        "video_st": 144,
+        "video_ed": 223,
+        "label": "tire",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the tire is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 144
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 147,
+                "end_time": 153
+            },
+            {
+                "trigger_time": 161,
+                "end_time": 172
+            },
+            {
+                "trigger_time": 180,
+                "end_time": 183
+            }
+        ]
+    },
+    {
+        "id": 130,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "1d2b62ed-fc94-4fb0-b547-8c50533b0b29",
+        "video_st": 96,
+        "video_ed": 146,
+        "label": "beige bucket",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the beige bucket is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 96
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 101,
+                "end_time": 105
+            },
+            {
+                "trigger_time": 113,
+                "end_time": 122
+            },
+            {
+                "trigger_time": 130,
+                "end_time": 133
+            }
+        ]
+    },
+    {
+        "id": 131,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "fe3000d6-d857-4cd1-a927-0a91a7f9616e",
+        "video_st": 350,
+        "video_ed": 400,
+        "label": "scraper",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the scraper is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 350
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 353,
+                "end_time": 363
+            },
+            {
+                "trigger_time": 369,
+                "end_time": 379
+            },
+            {
+                "trigger_time": 386,
+                "end_time": 395
+            }
+        ]
+    },
+    {
+        "id": 132,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "ccd5eb6c-e9cb-4777-8b3b-494cbff10733",
+        "video_st": 41,
+        "video_ed": 110,
+        "label": "cream kitchen towel",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the cream kitchen towel is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 41
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 54,
+                "end_time": 58
+            },
+            {
+                "trigger_time": 68,
+                "end_time": 73
+            },
+            {
+                "trigger_time": 98,
+                "end_time": 103
+            }
+        ]
+    },
+    {
+        "id": 133,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "7b452799-981c-494a-affb-d011cd5c43e5",
+        "video_st": 412,
+        "video_ed": 453,
+        "label": "liquid soap bottle",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the liquid soap bottle is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 412
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 419,
+                "end_time": 424
+            },
+            {
+                "trigger_time": 431,
+                "end_time": 441
+            }
+        ]
+    },
+    {
+        "id": 134,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "0c2cc98f-0b4f-4820-8687-e12483cf4d0a",
+        "video_st": 45,
+        "video_ed": 88,
+        "label": "broom",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the broom is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 45
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 48,
+                "end_time": 54
+            },
+            {
+                "trigger_time": 60,
+                "end_time": 70
+            },
+            {
+                "trigger_time": 76,
+                "end_time": 81
+            }
+        ]
+    },
+    {
+        "id": 135,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "33e13c5c-f36f-4a33-9ca4-4c7639367baa",
+        "video_st": 149,
+        "video_ed": 215,
+        "label": "scissors",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the scissors are visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 149
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 169,
+                "end_time": 185
+            },
+            {
+                "trigger_time": 201,
+                "end_time": 206
+            }
+        ]
+    },
+    {
+        "id": 136,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "d45f27ec-0e3e-4093-be24-37279052a2e6",
+        "video_st": 335,
+        "video_ed": 466,
+        "label": "white paint tray",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the white paint tray is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 335
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 376,
+                "end_time": 419
+            },
+            {
+                "trigger_time": 433,
+                "end_time": 440
+            },
+            {
+                "trigger_time": 454,
+                "end_time": 461
+            }
+        ]
+    },
+    {
+        "id": 137,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "b3c6c88b-da86-435f-b7c1-78813f77e4a4",
+        "video_st": 328,
+        "video_ed": 370,
+        "label": "spray bottle",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the spray bottle is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 328
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 332,
+                "end_time": 339
+            },
+            {
+                "trigger_time": 346,
+                "end_time": 359
+            }
+        ]
+    },
+    {
+        "id": 138,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "e42e9362-3c68-4c22-98c1-e7900d6e6f07",
+        "video_st": 64,
+        "video_ed": 149,
+        "label": "orange water bottle",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the orange water bottle is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 64
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 70,
+                "end_time": 90
+            },
+            {
+                "trigger_time": 98,
+                "end_time": 113
+            }
+        ]
+    },
+    {
+        "id": 139,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "c6a263cd-8b9c-4823-b303-ed30f60872c3",
+        "video_st": 42,
+        "video_ed": 124,
+        "label": "knife with a black handle",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the knife with a black handle is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 42
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 64,
+                "end_time": 73
+            },
+            {
+                "trigger_time": 117,
+                "end_time": 120
+            }
+        ]
+    },
+    {
+        "id": 140,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "2693d33c-a610-4187-b055-b3f3b9246273",
+        "video_st": 56,
+        "video_ed": 113,
+        "label": "bottle with a red lid containing some oil",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the bottle with a red lid containing some oil is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 56
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 72,
+                "end_time": 80
+            },
+            {
+                "trigger_time": 89,
+                "end_time": 97
+            }
+        ]
+    },
+    {
+        "id": 141,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "8eecafd7-3712-461d-98cc-61bb71400174",
+        "video_st": 52,
+        "video_ed": 191,
+        "label": "pot containing some brown soup",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the pot containing some brown soup is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 52
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 92,
+                "end_time": 104
+            },
+            {
+                "trigger_time": 158,
+                "end_time": 163
+            },
+            {
+                "trigger_time": 177,
+                "end_time": 185
+            }
+        ]
+    },
+    {
+        "id": 142,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "f1eb7035-ce79-4be2-81bc-118eb1ad2887",
+        "video_st": 74,
+        "video_ed": 138,
+        "label": "pestle on the mortar",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the pestle on the mortar is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 74
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 86,
+                "end_time": 89
+            },
+            {
+                "trigger_time": 110,
+                "end_time": 113
+            }
+        ]
+    },
+    {
+        "id": 143,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "09d85b55-d473-49c1-9ebc-e871714785cd",
+        "video_st": 415,
+        "video_ed": 478,
+        "label": "red bucket",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the red bucket is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 415
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 433,
+                "end_time": 456
+            },
+            {
+                "trigger_time": 467,
+                "end_time": 470
+            }
+        ]
+    },
+    {
+        "id": 144,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "09d85b55-d473-49c1-9ebc-e871714785cd",
+        "video_st": 564,
+        "video_ed": 657,
+        "label": "red bucket",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the red bucket is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 564
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 572,
+                "end_time": 585
+            },
+            {
+                "trigger_time": 618,
+                "end_time": 631
+            }
+        ]
+    },
+    {
+        "id": 145,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "09d85b55-d473-49c1-9ebc-e871714785cd",
+        "video_st": 730,
+        "video_ed": 798,
+        "label": "red bucket",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the red bucket is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 730
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 737,
+                "end_time": 754
+            },
+            {
+                "trigger_time": 772,
+                "end_time": 789
+            }
+        ]
+    },
+    {
+        "id": 146,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "09d85b55-d473-49c1-9ebc-e871714785cd",
+        "video_st": 875,
+        "video_ed": 919,
+        "label": "black calculator",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the black calculator is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 875
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 884,
+                "end_time": 886
+            },
+            {
+                "trigger_time": 906,
+                "end_time": 912
+            }
+        ]
+    },
+    {
+        "id": 147,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "558962eb-e2a1-42e1-ad1b-e1025997a22d",
+        "video_st": 116,
+        "video_ed": 221,
+        "label": "metal trolley with green plants",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the metal trolley with green plants is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 116
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 120,
+                "end_time": 172
+            },
+            {
+                "trigger_time": 181,
+                "end_time": 184
+            },
+            {
+                "trigger_time": 190,
+                "end_time": 193
+            }
+        ]
+    },
+    {
+        "id": 148,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "83e54fdc-6336-439c-b8a5-44682989a329",
+        "video_st": 145,
+        "video_ed": 228,
+        "label": "green hammer",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the green hammer is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 145
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 149,
+                "end_time": 159
+            },
+            {
+                "trigger_time": 166,
+                "end_time": 169
+            },
+            {
+                "trigger_time": 184,
+                "end_time": 223
+            }
+        ]
+    },
+    {
+        "id": 149,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "ec8ba29d-0c32-420c-8b91-7ba8b9af328d",
+        "video_st": 45,
+        "video_ed": 78,
+        "label": "pliers with red handles",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the pliers with red handles are visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 45
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 56,
+                "end_time": 59
+            },
+            {
+                "trigger_time": 65,
+                "end_time": 71
+            }
+        ]
+    },
+    {
+        "id": 150,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "3a772435-164d-4a72-ae60-eee7ba7dc8a6",
+        "video_st": 42,
+        "video_ed": 132,
+        "label": "book on the table",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the book on the table is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 42
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 49,
+                "end_time": 55
+            },
+            {
+                "trigger_time": 76,
+                "end_time": 88
+            },
+            {
+                "trigger_time": 96,
+                "end_time": 104
+            }
+        ]
+    },
+    {
+        "id": 151,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "5333a996-877f-4e30-ba79-631131744a4b",
+        "video_st": 8,
+        "video_ed": 54,
+        "label": "sink",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the sink is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 8
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 23,
+                "end_time": 29
+            },
+            {
+                "trigger_time": 38,
+                "end_time": 47
+            }
+        ]
+    },
+    {
+        "id": 152,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "381d80bc-e253-46a5-b951-b5e91a99b0cd",
+        "video_st": 142,
+        "video_ed": 220,
+        "label": "wooden bag",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the wooden bag is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 142
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 166,
+                "end_time": 175
+            },
+            {
+                "trigger_time": 205,
+                "end_time": 209
+            }
+        ]
+    },
+    {
+        "id": 153,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "7a954faf-102f-4aba-9317-96d73c8fd104",
+        "video_st": 79,
+        "video_ed": 165,
+        "label": "red shopping basket",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the red shopping basket is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 79
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 90,
+                "end_time": 94
+            },
+            {
+                "trigger_time": 137,
+                "end_time": 144
+            }
+        ]
+    },
+    {
+        "id": 154,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "e6595a30-d78f-40db-a112-51252d767595",
+        "video_st": 42,
+        "video_ed": 130,
+        "label": "copper-colored frying pan on the kitchen counter",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the copper-colored frying pan on the kitchen counter is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 42
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 47,
+                "end_time": 64
+            },
+            {
+                "trigger_time": 76,
+                "end_time": 94
+            },
+            {
+                "trigger_time": 105,
+                "end_time": 125
+            }
+        ]
+    },
+    {
+        "id": 155,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "4bb8392f-77dc-4a97-8d8a-93c3d6d46818",
+        "video_st": 319,
+        "video_ed": 364,
+        "label": "light green sieve",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the light green sieve is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 319
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 324,
+                "end_time": 327
+            },
+            {
+                "trigger_time": 340,
+                "end_time": 345
+            }
+        ]
+    },
+    {
+        "id": 156,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "71bd0b01-54b9-4cb4-b5c3-9c2642f812e0",
+        "video_st": 33,
+        "video_ed": 70,
+        "label": "white kettle",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the white kettle is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 33
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 37,
+                "end_time": 40
+            },
+            {
+                "trigger_time": 58,
+                "end_time": 63
+            }
+        ]
+    },
+    {
+        "id": 157,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "90c81da8-9b83-466c-bb82-a5d51b1fcfae",
+        "video_st": 108,
+        "video_ed": 147,
+        "label": "stainless steel cup",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the stainless steel cup is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 108
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 116,
+                "end_time": 118
+            },
+            {
+                "trigger_time": 126,
+                "end_time": 129
+            }
+        ]
+    },
+    {
+        "id": 158,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "5d6b83d8-ea4f-4723-ae92-9a753d3bffab",
+        "video_st": 74,
+        "video_ed": 214,
+        "label": "silver pot cooking food over a fire",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the silver pot cooking food over a fire is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 74
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 96,
+                "end_time": 118
+            },
+            {
+                "trigger_time": 130,
+                "end_time": 147
+            },
+            {
+                "trigger_time": 186,
+                "end_time": 209
+            }
+        ]
+    },
+    {
+        "id": 159,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "4feea277-12c6-4f39-8bfc-35bad1b9fdeb",
+        "video_st": 45,
+        "video_ed": 152,
+        "label": "yellow tin",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the yellow tin is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 45
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 48,
+                "end_time": 56
+            },
+            {
+                "trigger_time": 72,
+                "end_time": 112
+            },
+            {
+                "trigger_time": 125,
+                "end_time": 135
+            }
+        ]
+    },
+    {
+        "id": 160,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "2b3864c6-50d7-46ff-9ab6-3d6831f741cc",
+        "video_st": 30,
+        "video_ed": 161,
+        "label": "silver pot cooking food over a fire",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the silver pot cooking food over a fire is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 30
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 38,
+                "end_time": 49
+            },
+            {
+                "trigger_time": 89,
+                "end_time": 111
+            },
+            {
+                "trigger_time": 123,
+                "end_time": 134
+            }
+        ]
+    },
+    {
+        "id": 161,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "c26aeac2-df96-4536-8571-02e02788a18e",
+        "video_st": 379,
+        "video_ed": 416,
+        "label": "impact driver",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the impact driver is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 379
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 391,
+                "end_time": 394
+            },
+            {
+                "trigger_time": 407,
+                "end_time": 410
+            }
+        ]
+    },
+    {
+        "id": 162,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "f1a5c737-6648-4f20-a969-be18656620b3",
+        "video_st": 597,
+        "video_ed": 665,
+        "label": "cup beside the green plant on the windowsill",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the cup beside the green plant on the windowsill is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 597
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 605,
+                "end_time": 609
+            },
+            {
+                "trigger_time": 616,
+                "end_time": 625
+            },
+            {
+                "trigger_time": 632,
+                "end_time": 647
+            }
+        ]
+    },
+    {
+        "id": 163,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "0080281f-4db1-4a49-9753-e70c41bd9bc7",
+        "video_st": 147,
+        "video_ed": 192,
+        "label": "caliper",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the caliper is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 147
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 155,
+                "end_time": 168
+            },
+            {
+                "trigger_time": 182,
+                "end_time": 186
+            }
+        ]
+    },
+    {
+        "id": 164,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ego4d_clips",
+        "video_name": "ba205890-25a1-49a1-93d9-3e14cf8d44bd",
+        "video_st": 167,
+        "video_ed": 233,
+        "label": "remote control",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the remote control is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 167
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 184,
+                "end_time": 191
+            },
+            {
+                "trigger_time": 200,
+                "end_time": 207
+            },
+            {
+                "trigger_time": 215,
+                "end_time": 223
+            }
+        ]
+    },
+    {
+        "id": 165,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "5BDj0ow5hnA",
+        "video_st": 966,
+        "video_ed": 990,
+        "label": "play musical instrument",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is playing a musical instrument; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 966
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 972,
+                "end_time": 978
+            },
+            {
+                "trigger_time": 984,
+                "end_time": 986
+            }
+        ]
+    },
+    {
+        "id": 166,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "5BDj0ow5hnA",
+        "video_st": 966,
+        "video_ed": 998,
+        "label": "play musical instrument",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is playing a musical instrument; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 966
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 972,
+                "end_time": 978
+            },
+            {
+                "trigger_time": 992,
+                "end_time": 998
+            }
+        ]
+    },
+    {
+        "id": 167,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "5BDj0ow5hnA",
+        "video_st": 980,
+        "video_ed": 998,
+        "label": "play musical instrument",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is playing a musical instrument; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 980
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 984,
+                "end_time": 986
+            },
+            {
+                "trigger_time": 992,
+                "end_time": 998
+            }
+        ]
+    },
+    {
+        "id": 168,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "CMCPhm2L400",
+        "video_st": 1203,
+        "video_ed": 1257,
+        "label": "smoke",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is smoking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1203
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1235,
+                "end_time": 1238
+            },
+            {
+                "trigger_time": 1246,
+                "end_time": 1251
+            }
+        ]
+    },
+    {
+        "id": 169,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "CMCPhm2L400",
+        "video_st": 1270,
+        "video_ed": 1296,
+        "label": "smoke",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is smoking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1270
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1274,
+                "end_time": 1276
+            },
+            {
+                "trigger_time": 1290,
+                "end_time": 1296
+            }
+        ]
+    },
+    {
+        "id": 170,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "Ekwy7wzLfjc",
+        "video_st": 908,
+        "video_ed": 1167,
+        "label": "answer phone",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is answering the phone; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 908
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 992,
+                "end_time": 1004
+            },
+            {
+                "trigger_time": 1013,
+                "end_time": 1032
+            }
+        ]
+    },
+    {
+        "id": 171,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "Gvp-cj3bmIY",
+        "video_st": 1659,
+        "video_ed": 1711,
+        "label": "smoke",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is smoking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1659
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1667,
+                "end_time": 1676
+            },
+            {
+                "trigger_time": 1686,
+                "end_time": 1696
+            }
+        ]
+    },
+    {
+        "id": 172,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "Gvp-cj3bmIY",
+        "video_st": 1698,
+        "video_ed": 1729,
+        "label": "smoke",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is smoking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1698
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1713,
+                "end_time": 1716
+            },
+            {
+                "trigger_time": 1724,
+                "end_time": 1727
+            }
+        ]
+    },
+    {
+        "id": 173,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "IzvOYVMltkI",
+        "video_st": 1413,
+        "video_ed": 1507,
+        "label": "smoke",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is smoking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1413
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1445,
+                "end_time": 1450
+            },
+            {
+                "trigger_time": 1458,
+                "end_time": 1475
+            }
+        ]
+    },
+    {
+        "id": 174,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "Lg1jOu8cUBM",
+        "video_st": 908,
+        "video_ed": 933,
+        "label": "smoke",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is smoking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 908
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 916,
+                "end_time": 918
+            },
+            {
+                "trigger_time": 928,
+                "end_time": 930
+            }
+        ]
+    },
+    {
+        "id": 175,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "Lg1jOu8cUBM",
+        "video_st": 1004,
+        "video_ed": 1026,
+        "label": "smoke",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is smoking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1004
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1012,
+                "end_time": 1015
+            },
+            {
+                "trigger_time": 1022,
+                "end_time": 1024
+            }
+        ]
+    },
+    {
+        "id": 176,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "Lg1jOu8cUBM",
+        "video_st": 1004,
+        "video_ed": 1038,
+        "label": "smoke",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is smoking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1004
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1012,
+                "end_time": 1015
+            },
+            {
+                "trigger_time": 1028,
+                "end_time": 1030
+            }
+        ]
+    },
+    {
+        "id": 177,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "Lg1jOu8cUBM",
+        "video_st": 1043,
+        "video_ed": 1071,
+        "label": "smoke",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is smoking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1043
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1049,
+                "end_time": 1055
+            },
+            {
+                "trigger_time": 1067,
+                "end_time": 1069
+            }
+        ]
+    },
+    {
+        "id": 178,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "Lg1jOu8cUBM",
+        "video_st": 1064,
+        "video_ed": 1082,
+        "label": "smoke",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is smoking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1064
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1067,
+                "end_time": 1069
+            },
+            {
+                "trigger_time": 1076,
+                "end_time": 1078
+            }
+        ]
+    },
+    {
+        "id": 179,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "Lg1jOu8cUBM",
+        "video_st": 1408,
+        "video_ed": 1457,
+        "label": "smoke",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is smoking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1408
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1412,
+                "end_time": 1414
+            },
+            {
+                "trigger_time": 1423,
+                "end_time": 1425
+            }
+        ]
+    },
+    {
+        "id": 180,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "O_NYCUhZ9zw",
+        "video_st": 1543,
+        "video_ed": 1673,
+        "label": "answer phone",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is answering the phone; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1543
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1556,
+                "end_time": 1562
+            },
+            {
+                "trigger_time": 1569,
+                "end_time": 1579
+            }
+        ]
+    },
+    {
+        "id": 181,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "QTmwhrVal1g",
+        "video_st": 1415,
+        "video_ed": 1624,
+        "label": "answer phone",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is answering the phone; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1415
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1468,
+                "end_time": 1492
+            },
+            {
+                "trigger_time": 1507,
+                "end_time": 1513
+            }
+        ]
+    },
+    {
+        "id": 182,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "XpGRS72ghag",
+        "video_st": 900,
+        "video_ed": 949,
+        "label": "smoke",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is smoking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 900
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 928,
+                "end_time": 931
+            },
+            {
+                "trigger_time": 943,
+                "end_time": 946
+            }
+        ]
+    },
+    {
+        "id": 183,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "Z1YV6wB037M",
+        "video_st": 907,
+        "video_ed": 1103,
+        "label": "drink",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is drinking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 907
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 937,
+                "end_time": 939
+            },
+            {
+                "trigger_time": 946,
+                "end_time": 949
+            }
+        ]
+    },
+    {
+        "id": 184,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "Z1YV6wB037M",
+        "video_st": 951,
+        "video_ed": 1127,
+        "label": "drink",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is drinking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 951
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1105,
+                "end_time": 1109
+            },
+            {
+                "trigger_time": 1116,
+                "end_time": 1124
+            }
+        ]
+    },
+    {
+        "id": 185,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "Z1YV6wB037M",
+        "video_st": 1311,
+        "video_ed": 1575,
+        "label": "drink",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is drinking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1311
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1319,
+                "end_time": 1321
+            },
+            {
+                "trigger_time": 1331,
+                "end_time": 1333
+            }
+        ]
+    },
+    {
+        "id": 186,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "ZosVdkY76FU",
+        "video_st": 973,
+        "video_ed": 1024,
+        "label": "answer phone",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is answering the phone; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 973
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 994,
+                "end_time": 1001
+            },
+            {
+                "trigger_time": 1012,
+                "end_time": 1024
+            }
+        ]
+    },
+    {
+        "id": 187,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "_7oWZq_s_Sk",
+        "video_st": 1010,
+        "video_ed": 1057,
+        "label": "play musical instrument",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is playing a musical instrument; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1010
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1021,
+                "end_time": 1025
+            },
+            {
+                "trigger_time": 1031,
+                "end_time": 1036
+            }
+        ]
+    },
+    {
+        "id": 188,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "_7oWZq_s_Sk",
+        "video_st": 1063,
+        "video_ed": 1090,
+        "label": "play musical instrument",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is playing a musical instrument; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1063
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1069,
+                "end_time": 1072
+            },
+            {
+                "trigger_time": 1086,
+                "end_time": 1089
+            }
+        ]
+    },
+    {
+        "id": 189,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "_dBTTYDRdRQ",
+        "video_st": 998,
+        "video_ed": 1081,
+        "label": "play musical instrument",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is playing a musical instrument; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 998
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1030,
+                "end_time": 1052
+            },
+            {
+                "trigger_time": 1059,
+                "end_time": 1068
+            }
+        ]
+    },
+    {
+        "id": 190,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "_dBTTYDRdRQ",
+        "video_st": 1054,
+        "video_ed": 1092,
+        "label": "play musical instrument",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is playing a musical instrument; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1054
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1059,
+                "end_time": 1068
+            },
+            {
+                "trigger_time": 1083,
+                "end_time": 1088
+            }
+        ]
+    },
+    {
+        "id": 191,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "_dBTTYDRdRQ",
+        "video_st": 1070,
+        "video_ed": 1135,
+        "label": "play musical instrument",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is playing a musical instrument; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1070
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1083,
+                "end_time": 1088
+            },
+            {
+                "trigger_time": 1099,
+                "end_time": 1131
+            }
+        ]
+    },
+    {
+        "id": 192,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "_dBTTYDRdRQ",
+        "video_st": 1309,
+        "video_ed": 1435,
+        "label": "play musical instrument",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is playing a musical instrument; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1309
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1326,
+                "end_time": 1394
+            },
+            {
+                "trigger_time": 1401,
+                "end_time": 1412
+            }
+        ]
+    },
+    {
+        "id": 193,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "fpprSy6AzKk",
+        "video_st": 1088,
+        "video_ed": 1196,
+        "label": "play musical instrument",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is playing a musical instrument; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1088
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1093,
+                "end_time": 1095
+            },
+            {
+                "trigger_time": 1101,
+                "end_time": 1111
+            }
+        ]
+    },
+    {
+        "id": 194,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "fpprSy6AzKk",
+        "video_st": 1515,
+        "video_ed": 1575,
+        "label": "play musical instrument",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is playing a musical instrument; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1515
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1518,
+                "end_time": 1531
+            },
+            {
+                "trigger_time": 1537,
+                "end_time": 1543
+            }
+        ]
+    },
+    {
+        "id": 195,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "j5jmjhGBW44",
+        "video_st": 1554,
+        "video_ed": 1638,
+        "label": "play board game",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is playing a board game; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1554
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1586,
+                "end_time": 1589
+            },
+            {
+                "trigger_time": 1603,
+                "end_time": 1606
+            }
+        ]
+    },
+    {
+        "id": 196,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "jE0S8gYWftE",
+        "video_st": 1343,
+        "video_ed": 1417,
+        "label": "play musical instrument",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is playing a musical instrument; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1343
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1375,
+                "end_time": 1377
+            },
+            {
+                "trigger_time": 1383,
+                "end_time": 1385
+            }
+        ]
+    },
+    {
+        "id": 197,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "lDmLcWWBp1E",
+        "video_st": 1131,
+        "video_ed": 1735,
+        "label": "play musical instrument",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is playing a musical instrument; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1131
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1709,
+                "end_time": 1712
+            },
+            {
+                "trigger_time": 1725,
+                "end_time": 1728
+            }
+        ]
+    },
+    {
+        "id": 198,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "lDmLcWWBp1E",
+        "video_st": 1714,
+        "video_ed": 1744,
+        "label": "play musical instrument",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is playing a musical instrument; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1714
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1725,
+                "end_time": 1728
+            },
+            {
+                "trigger_time": 1737,
+                "end_time": 1742
+            }
+        ]
+    },
+    {
+        "id": 199,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "nlinqZPgvVk",
+        "video_st": 1510,
+        "video_ed": 1624,
+        "label": "drink",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is drinking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1510
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1515,
+                "end_time": 1517
+            },
+            {
+                "trigger_time": 1530,
+                "end_time": 1532
+            }
+        ]
+    },
+    {
+        "id": 200,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "om_83F5VwTQ",
+        "video_st": 1147,
+        "video_ed": 1550,
+        "label": "smoke",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is smoking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1147
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1179,
+                "end_time": 1216
+            },
+            {
+                "trigger_time": 1223,
+                "end_time": 1236
+            }
+        ]
+    },
+    {
+        "id": 201,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "om_83F5VwTQ",
+        "video_st": 1643,
+        "video_ed": 1679,
+        "label": "smoke",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is smoking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1643
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1649,
+                "end_time": 1653
+            },
+            {
+                "trigger_time": 1659,
+                "end_time": 1677
+            }
+        ]
+    },
+    {
+        "id": 202,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "om_83F5VwTQ",
+        "video_st": 1689,
+        "video_ed": 1727,
+        "label": "smoke",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is smoking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1689
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1697,
+                "end_time": 1709
+            },
+            {
+                "trigger_time": 1722,
+                "end_time": 1727
+            }
+        ]
+    },
+    {
+        "id": 203,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "qx2vAO5ofmo",
+        "video_st": 1085,
+        "video_ed": 1117,
+        "label": "dance",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is dancing; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1085
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1105,
+                "end_time": 1108
+            },
+            {
+                "trigger_time": 1114,
+                "end_time": 1117
+            }
+        ]
+    },
+    {
+        "id": 204,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "qx2vAO5ofmo",
+        "video_st": 1085,
+        "video_ed": 1122,
+        "label": "dance",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is dancing; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1085
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1105,
+                "end_time": 1108
+            },
+            {
+                "trigger_time": 1119,
+                "end_time": 1122
+            }
+        ]
+    },
+    {
+        "id": 205,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "sNQJfYvhcPk",
+        "video_st": 1046,
+        "video_ed": 1148,
+        "label": "answer phone",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is answering the phone; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1046
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1078,
+                "end_time": 1090
+            },
+            {
+                "trigger_time": 1097,
+                "end_time": 1147
+            }
+        ]
+    },
+    {
+        "id": 206,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "sNQJfYvhcPk",
+        "video_st": 1092,
+        "video_ed": 1528,
+        "label": "answer phone",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is answering the phone; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1092
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1097,
+                "end_time": 1147
+            },
+            {
+                "trigger_time": 1159,
+                "end_time": 1161
+            }
+        ]
+    },
+    {
+        "id": 207,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "sNQJfYvhcPk",
+        "video_st": 1310,
+        "video_ed": 1565,
+        "label": "work on a computer",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is working on a computer; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1310
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1342,
+                "end_time": 1345
+            },
+            {
+                "trigger_time": 1352,
+                "end_time": 1359
+            }
+        ]
+    },
+    {
+        "id": 208,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "sNQJfYvhcPk",
+        "video_st": 1163,
+        "video_ed": 1591,
+        "label": "answer phone",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is answering the phone; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1163
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1530,
+                "end_time": 1535
+            },
+            {
+                "trigger_time": 1548,
+                "end_time": 1559
+            }
+        ]
+    },
+    {
+        "id": 209,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "uNT6HrrnqPU",
+        "video_st": 1169,
+        "video_ed": 1423,
+        "label": "dance",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is dancing; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1169
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1407,
+                "end_time": 1409
+            },
+            {
+                "trigger_time": 1417,
+                "end_time": 1419
+            }
+        ]
+    },
+    {
+        "id": 210,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "uNT6HrrnqPU",
+        "video_st": 1474,
+        "video_ed": 1525,
+        "label": "dance",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is dancing; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1474
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1498,
+                "end_time": 1507
+            },
+            {
+                "trigger_time": 1518,
+                "end_time": 1521
+            }
+        ]
+    },
+    {
+        "id": 211,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "uNT6HrrnqPU",
+        "video_st": 1509,
+        "video_ed": 1540,
+        "label": "dance",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is dancing; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1509
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1512,
+                "end_time": 1516
+            },
+            {
+                "trigger_time": 1531,
+                "end_time": 1538
+            }
+        ]
+    },
+    {
+        "id": 212,
+        "task": "Proactive Monitoring/Repeated Proactiveness",
+        "data": "ava",
+        "video_name": "uNT6HrrnqPU",
+        "video_st": 1523,
+        "video_ed": 1567,
+        "label": "dance",
+        "question": [
+            {
+                "text": "You are given the video from the beginning up to the current moment. Please remind me whenever the person is dancing; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1523
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1527,
+                "end_time": 1529
+            },
+            {
+                "trigger_time": 1542,
+                "end_time": 1546
+            }
+        ]
+    }
+]

@@ -1,0 +1,5618 @@
+[
+    {
+        "id": 1,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_test_0000964",
+        "video_st": 0,
+        "video_ed": 51,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a baseball pitch; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, just turn it off.",
+                "t": 26
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 8
+            },
+            {
+                "trigger_time": 43
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_test_0000737",
+        "video_st": 0,
+        "video_ed": 115,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a clean and jerk; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 51
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 21
+            },
+            {
+                "trigger_time": 81
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_test_0001307",
+        "video_st": 0,
+        "video_ed": 76,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a clean and jerk; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, go ahead and turn it off.",
+                "t": 26
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 13
+            },
+            {
+                "trigger_time": 39
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_test_0001307",
+        "video_st": 93,
+        "video_ed": 174,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a clean and jerk; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 93
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 123
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 104
+            },
+            {
+                "trigger_time": 141
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_test_0001483",
+        "video_st": 0,
+        "video_ed": 41,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a clean and jerk; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, please turn it off.",
+                "t": 13
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 7
+            },
+            {
+                "trigger_time": 19
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_test_0000897",
+        "video_st": 0,
+        "video_ed": 32,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a cricket bowling action; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 15
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 11
+            },
+            {
+                "trigger_time": 18
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_test_0000897",
+        "video_st": 39,
+        "video_ed": 87,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a cricket bowling action; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 39
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 59
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 53
+            },
+            {
+                "trigger_time": 65
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_test_0001325",
+        "video_st": 0,
+        "video_ed": 91,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a cricket shot; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Never mind about that, please stop sending me those reminders.",
+                "t": 42
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 36
+            },
+            {
+                "trigger_time": 48
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_test_0000238",
+        "video_st": 0,
+        "video_ed": 37,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a golf swing; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 16
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 10
+            },
+            {
+                "trigger_time": 21
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_test_0001163",
+        "video_st": 0,
+        "video_ed": 32,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a golf swing; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Never mind about that, please stop sending me those notifications.",
+                "t": 15
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 6
+            },
+            {
+                "trigger_time": 23
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_test_0001163",
+        "video_st": 42,
+        "video_ed": 100,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a golf swing; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 42
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, let's just drop it.",
+                "t": 63
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 47
+            },
+            {
+                "trigger_time": 79
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_test_0001072",
+        "video_st": 0,
+        "video_ed": 61,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a hammer throw; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 23
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 7
+            },
+            {
+                "trigger_time": 39
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_test_0001072",
+        "video_st": 78,
+        "video_ed": 153,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a hammer throw; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 78
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, just drop it.",
+                "t": 106
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 94
+            },
+            {
+                "trigger_time": 117
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_test_0001072",
+        "video_st": 162,
+        "video_ed": 284,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a hammer throw; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 162
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, go ahead and turn it off.",
+                "t": 215
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 182
+            },
+            {
+                "trigger_time": 248
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_test_0000896",
+        "video_st": 0,
+        "video_ed": 39,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a high jump; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 25
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 19
+            },
+            {
+                "trigger_time": 30
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_test_0000896",
+        "video_st": 49,
+        "video_ed": 81,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a high jump; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 49
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, let's drop it.",
+                "t": 64
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 58
+            },
+            {
+                "trigger_time": 70
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_test_0000355",
+        "video_st": 0,
+        "video_ed": 645,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a long jump; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 240
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 234
+            },
+            {
+                "trigger_time": 246
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_test_0000444",
+        "video_st": 0,
+        "video_ed": 53,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a pole vault; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 25
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 13
+            },
+            {
+                "trigger_time": 37
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_test_0000444",
+        "video_st": 65,
+        "video_ed": 112,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a pole vault; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 65
+            },
+            {
+                "text": "Never mind about that, you can stop sending me those reminders now.",
+                "t": 86
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 77
+            },
+            {
+                "trigger_time": 95
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_test_0001066",
+        "video_st": 0,
+        "video_ed": 55,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a shot put; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 15
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 6
+            },
+            {
+                "trigger_time": 23
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_test_0001066",
+        "video_st": 70,
+        "video_ed": 131,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a shot put; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 70
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 88
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 82
+            },
+            {
+                "trigger_time": 93
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_test_0001527",
+        "video_st": 0,
+        "video_ed": 70,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a shot put; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Never mind about that, please don't remind me anymore.",
+                "t": 17
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 8
+            },
+            {
+                "trigger_time": 26
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_test_0001527",
+        "video_st": 82,
+        "video_ed": 158,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a shot put; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 82
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, let's drop it.",
+                "t": 119
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 95
+            },
+            {
+                "trigger_time": 142
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_test_0001409",
+        "video_st": 0,
+        "video_ed": 79,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a soccer penalty; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, feel free to turn it off.",
+                "t": 39
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 20
+            },
+            {
+                "trigger_time": 58
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_test_0001409",
+        "video_st": 86,
+        "video_ed": 140,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a soccer penalty; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 86
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, go ahead and turn it off.",
+                "t": 112
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 101
+            },
+            {
+                "trigger_time": 122
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_test_0000319",
+        "video_st": 0,
+        "video_ed": 96,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a discus throw; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 32
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 15
+            },
+            {
+                "trigger_time": 48
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_test_0000987",
+        "video_st": 104,
+        "video_ed": 160,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a discus throw; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 104
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, go ahead and turn it off.",
+                "t": 119
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 108
+            },
+            {
+                "trigger_time": 129
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000690",
+        "video_st": 0,
+        "video_ed": 33,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a baseball pitch; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, go ahead and stop those alerts.",
+                "t": 11
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 6
+            },
+            {
+                "trigger_time": 15
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000690",
+        "video_st": 40,
+        "video_ed": 280,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a baseball pitch; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 40
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, go ahead and turn it off.",
+                "t": 205
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 157
+            },
+            {
+                "trigger_time": 252
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000060",
+        "video_st": 0,
+        "video_ed": 59,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a billiards shot; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, please turn it off.",
+                "t": 38
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 24
+            },
+            {
+                "trigger_time": 51
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000060",
+        "video_st": 65,
+        "video_ed": 122,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a billiards shot; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 65
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, go ahead and turn it off.",
+                "t": 88
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 74
+            },
+            {
+                "trigger_time": 101
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000060",
+        "video_st": 129,
+        "video_ed": 148,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a billiards shot; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 129
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, go ahead and turn it off.",
+                "t": 138
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 134
+            },
+            {
+                "trigger_time": 142
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000159",
+        "video_st": 0,
+        "video_ed": 132,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a clean and jerk; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Never mind about that, no need to remind me anymore.",
+                "t": 68
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 36
+            },
+            {
+                "trigger_time": 99
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000159",
+        "video_st": 138,
+        "video_ed": 367,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a clean and jerk; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 138
+            },
+            {
+                "text": "Never mind about that,  you don't need to remind me anymore.",
+                "t": 249
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 231
+            },
+            {
+                "trigger_time": 267
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000313",
+        "video_st": 0,
+        "video_ed": 35,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a hammer throw; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Actually, you can stop sending me those reminders now, I don't need them anymore.",
+                "t": 18
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 11
+            },
+            {
+                "trigger_time": 25
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000313",
+        "video_st": 47,
+        "video_ed": 131,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a hammer throw; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 47
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 63
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 52
+            },
+            {
+                "trigger_time": 74
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000317",
+        "video_st": 0,
+        "video_ed": 59,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a hammer throw; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 30
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 6
+            },
+            {
+                "trigger_time": 54
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000317",
+        "video_st": 143,
+        "video_ed": 214,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a hammer throw; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 143
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, please turn it off.",
+                "t": 175
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 152
+            },
+            {
+                "trigger_time": 198
+            }
+        ]
+    },
+    {
+        "id": 39,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000482",
+        "video_st": 0,
+        "video_ed": 64,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a long jump; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, just stop sending those notifications.",
+                "t": 40
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 28
+            },
+            {
+                "trigger_time": 51
+            }
+        ]
+    },
+    {
+        "id": 40,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000483",
+        "video_st": 0,
+        "video_ed": 88,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a long jump; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Never mind about that, please stop sending me those reminders.",
+                "t": 67
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 54
+            },
+            {
+                "trigger_time": 80
+            }
+        ]
+    },
+    {
+        "id": 41,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000485",
+        "video_st": 0,
+        "video_ed": 63,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a long jump; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 27
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 16
+            },
+            {
+                "trigger_time": 37
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000485",
+        "video_st": 76,
+        "video_ed": 150,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a long jump; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 76
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 110
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 88
+            },
+            {
+                "trigger_time": 131
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000485",
+        "video_st": 165,
+        "video_ed": 237,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a long jump; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 165
+            },
+            {
+                "text": "Never mind about that, please stop sending me those reminders.",
+                "t": 195
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 184
+            },
+            {
+                "trigger_time": 206
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000661",
+        "video_st": 0,
+        "video_ed": 114,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a pole vault; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Actually, you can stop sending me those reminders now, I don't need them anymore.",
+                "t": 84
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 58
+            },
+            {
+                "trigger_time": 110
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000667",
+        "video_st": 0,
+        "video_ed": 45,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a pole vault; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Never mind about that, you can stop sending me those reminders now.",
+                "t": 18
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 6
+            },
+            {
+                "trigger_time": 30
+            }
+        ]
+    },
+    {
+        "id": 46,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000781",
+        "video_st": 59,
+        "video_ed": 127,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a shot put; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 59
+            },
+            {
+                "text": "Never mind about that, no need to remind me anymore.",
+                "t": 82
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 75
+            },
+            {
+                "trigger_time": 88
+            }
+        ]
+    },
+    {
+        "id": 47,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000784",
+        "video_st": 0,
+        "video_ed": 44,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a shot put; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, just turn it off.",
+                "t": 14
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 7
+            },
+            {
+                "trigger_time": 21
+            }
+        ]
+    },
+    {
+        "id": 48,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000860",
+        "video_st": 0,
+        "video_ed": 31,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a soccer penalty; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, please stop those notifications.",
+                "t": 14
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 7
+            },
+            {
+                "trigger_time": 20
+            }
+        ]
+    },
+    {
+        "id": 49,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000946",
+        "video_st": 0,
+        "video_ed": 93,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a discus throw; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Actually, you can stop sending me those reminders, I don't need them anymore.",
+                "t": 12
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 6
+            },
+            {
+                "trigger_time": 17
+            }
+        ]
+    },
+    {
+        "id": 50,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_test_0000324",
+        "video_st": 0,
+        "video_ed": 148,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a baseball pitch; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, just turn it off.",
+                "t": 84
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 50
+            },
+            {
+                "trigger_time": 117
+            }
+        ]
+    },
+    {
+        "id": 51,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_test_0001038",
+        "video_st": 0,
+        "video_ed": 121,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a baseball pitch; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, please turn it off.",
+                "t": 81
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 51
+            },
+            {
+                "trigger_time": 111
+            }
+        ]
+    },
+    {
+        "id": 52,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_test_0000051",
+        "video_st": 0,
+        "video_ed": 78,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a billiards shot; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, let's turn it off.",
+                "t": 60
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 52
+            },
+            {
+                "trigger_time": 68
+            }
+        ]
+    },
+    {
+        "id": 53,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_test_0000051",
+        "video_st": 84,
+        "video_ed": 115,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a billiards shot; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 84
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, please turn it off.",
+                "t": 101
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 94
+            },
+            {
+                "trigger_time": 108
+            }
+        ]
+    },
+    {
+        "id": 54,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_test_0001135",
+        "video_st": 0,
+        "video_ed": 28,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a frisbee catch; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 13
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 8
+            },
+            {
+                "trigger_time": 17
+            }
+        ]
+    },
+    {
+        "id": 55,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_test_0000188",
+        "video_st": 0,
+        "video_ed": 90,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a high jump; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, just skip it from now on.",
+                "t": 19
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 14
+            },
+            {
+                "trigger_time": 23
+            }
+        ]
+    },
+    {
+        "id": 56,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_test_0000689",
+        "video_st": 0,
+        "video_ed": 129,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a soccer penalty; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 83
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 63
+            },
+            {
+                "trigger_time": 102
+            }
+        ]
+    },
+    {
+        "id": 57,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_test_0001118",
+        "video_st": 0,
+        "video_ed": 70,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a soccer penalty; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, just turn it off.",
+                "t": 36
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 23
+            },
+            {
+                "trigger_time": 49
+            }
+        ]
+    },
+    {
+        "id": 58,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_test_0001556",
+        "video_st": 0,
+        "video_ed": 103,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a soccer penalty; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 66
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 53
+            },
+            {
+                "trigger_time": 79
+            }
+        ]
+    },
+    {
+        "id": 59,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_test_0001223",
+        "video_st": 0,
+        "video_ed": 100,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a discus throw; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 52
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 28
+            },
+            {
+                "trigger_time": 75
+            }
+        ]
+    },
+    {
+        "id": 60,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000051",
+        "video_st": 0,
+        "video_ed": 138,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a billiards shot; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, go ahead and turn it off.",
+                "t": 77
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 68
+            },
+            {
+                "trigger_time": 86
+            }
+        ]
+    },
+    {
+        "id": 61,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000055",
+        "video_st": 0,
+        "video_ed": 57,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a billiards shot; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Never mind about that, please stop sending me those notifications.",
+                "t": 34
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 21
+            },
+            {
+                "trigger_time": 47
+            }
+        ]
+    },
+    {
+        "id": 62,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000055",
+        "video_st": 69,
+        "video_ed": 94,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a billiards shot; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 69
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 80
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 73
+            },
+            {
+                "trigger_time": 86
+            }
+        ]
+    },
+    {
+        "id": 63,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000055",
+        "video_st": 101,
+        "video_ed": 126,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a billiards shot; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 101
+            },
+            {
+                "text": "Never mind about that, you can stop those reminders now.",
+                "t": 111
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 105
+            },
+            {
+                "trigger_time": 117
+            }
+        ]
+    },
+    {
+        "id": 64,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000152",
+        "video_st": 0,
+        "video_ed": 97,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a clean and jerk; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Actually, you can stop those reminders now, I don't need them anymore.",
+                "t": 35
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 13
+            },
+            {
+                "trigger_time": 56
+            }
+        ]
+    },
+    {
+        "id": 65,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000160",
+        "video_st": 0,
+        "video_ed": 236,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a clean and jerk; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, go ahead and turn it off.",
+                "t": 71
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 47
+            },
+            {
+                "trigger_time": 95
+            }
+        ]
+    },
+    {
+        "id": 66,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000174",
+        "video_st": 47,
+        "video_ed": 134,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a cricket bowling action; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 47
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, just skip it from now on.",
+                "t": 89
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 58
+            },
+            {
+                "trigger_time": 119
+            }
+        ]
+    },
+    {
+        "id": 67,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000207",
+        "video_st": 118,
+        "video_ed": 183,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a dive; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 118
+            },
+            {
+                "text": "Never mind about that, you can stop sending me those notifications.",
+                "t": 138
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 127
+            },
+            {
+                "trigger_time": 148
+            }
+        ]
+    },
+    {
+        "id": 68,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000210",
+        "video_st": 52,
+        "video_ed": 85,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a dive; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 52
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 71
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 63
+            },
+            {
+                "trigger_time": 79
+            }
+        ]
+    },
+    {
+        "id": 69,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000287",
+        "video_st": 0,
+        "video_ed": 56,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a golf swing; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, just skip it from now on.",
+                "t": 35
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 30
+            },
+            {
+                "trigger_time": 40
+            }
+        ]
+    },
+    {
+        "id": 70,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000365",
+        "video_st": 0,
+        "video_ed": 68,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a high jump; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 25
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 19
+            },
+            {
+                "trigger_time": 30
+            }
+        ]
+    },
+    {
+        "id": 71,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000365",
+        "video_st": 153,
+        "video_ed": 268,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a high jump; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 153
+            },
+            {
+                "text": "Actually, you can stop sending me those notifications, I don't need that reminder anymore.",
+                "t": 203
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 193
+            },
+            {
+                "trigger_time": 213
+            }
+        ]
+    },
+    {
+        "id": 72,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000664",
+        "video_st": 0,
+        "video_ed": 42,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a pole vault; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, go ahead and turn it off.",
+                "t": 28
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 21
+            },
+            {
+                "trigger_time": 34
+            }
+        ]
+    },
+    {
+        "id": 73,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000664",
+        "video_st": 80,
+        "video_ed": 218,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a pole vault; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 80
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 92
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 86
+            },
+            {
+                "trigger_time": 98
+            }
+        ]
+    },
+    {
+        "id": 74,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000669",
+        "video_st": 0,
+        "video_ed": 97,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a pole vault; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, go ahead and turn it off.",
+                "t": 59
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 53
+            },
+            {
+                "trigger_time": 65
+            }
+        ]
+    },
+    {
+        "id": 75,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000669",
+        "video_st": 105,
+        "video_ed": 141,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a pole vault; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 105
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 126
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 118
+            },
+            {
+                "trigger_time": 134
+            }
+        ]
+    },
+    {
+        "id": 76,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000669",
+        "video_st": 149,
+        "video_ed": 232,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a pole vault; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 149
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, just skip it from now on.",
+                "t": 160
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 154
+            },
+            {
+                "trigger_time": 165
+            }
+        ]
+    },
+    {
+        "id": 77,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000783",
+        "video_st": 0,
+        "video_ed": 58,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a shot put; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 14
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 6
+            },
+            {
+                "trigger_time": 22
+            }
+        ]
+    },
+    {
+        "id": 78,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000783",
+        "video_st": 68,
+        "video_ed": 111,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a shot put; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 68
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, go ahead and turn it off.",
+                "t": 87
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 77
+            },
+            {
+                "trigger_time": 96
+            }
+        ]
+    },
+    {
+        "id": 79,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000783",
+        "video_st": 117,
+        "video_ed": 175,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a shot put; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 117
+            },
+            {
+                "text": "Never mind about that, please stop sending me those reminders.",
+                "t": 141
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 121
+            },
+            {
+                "trigger_time": 161
+            }
+        ]
+    },
+    {
+        "id": 80,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000785",
+        "video_st": 0,
+        "video_ed": 96,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a shot put; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 52
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 15
+            },
+            {
+                "trigger_time": 89
+            }
+        ]
+    },
+    {
+        "id": 81,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000858",
+        "video_st": 0,
+        "video_ed": 111,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a soccer penalty; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 48
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 40
+            },
+            {
+                "trigger_time": 56
+            }
+        ]
+    },
+    {
+        "id": 82,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000941",
+        "video_st": 0,
+        "video_ed": 78,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a discus throw; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 0
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, please turn it off.",
+                "t": 44
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 22
+            },
+            {
+                "trigger_time": 66
+            }
+        ]
+    },
+    {
+        "id": 83,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000941",
+        "video_st": 89,
+        "video_ed": 155,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a discus throw; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 89
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 133
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 120
+            },
+            {
+                "trigger_time": 146
+            }
+        ]
+    },
+    {
+        "id": 84,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000941",
+        "video_st": 165,
+        "video_ed": 231,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a discus throw; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 165
+            },
+            {
+                "text": "Never mind about that, you can stop those reminders now.",
+                "t": 197
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 189
+            },
+            {
+                "trigger_time": 205
+            }
+        ]
+    },
+    {
+        "id": 85,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "thumos14",
+        "video_name": "video_validation_0000988",
+        "video_st": 72,
+        "video_ed": 124,
+        "question": [
+            {
+                "text": "Please remind me whenever the person starts a volleyball spike; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 72
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, just turn it off.",
+                "t": 93
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 81
+            },
+            {
+                "trigger_time": 105
+            }
+        ]
+    },
+    {
+        "id": 86,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "f0f5f45c-1576-4408-8ed0-a80747a51bd5",
+        "video_st": 277,
+        "video_ed": 326,
+        "question": [
+            {
+                "text": "Please remind me whenever the screwdriver is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 277
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 287
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 281
+            },
+            {
+                "trigger_time": 293
+            }
+        ]
+    },
+    {
+        "id": 87,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "c52530be-f470-4c44-ae1a-c8aee924ff46",
+        "video_st": 106,
+        "video_ed": 161,
+        "question": [
+            {
+                "text": "Please remind me whenever the black hat is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 106
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 122
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 110
+            },
+            {
+                "trigger_time": 134
+            }
+        ]
+    },
+    {
+        "id": 88,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "18a5ccc8-ac50-418c-85a4-dade3e9ca841",
+        "video_st": 62,
+        "video_ed": 116,
+        "question": [
+            {
+                "text": "Please remind me whenever the white dustbin bag is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 62
+            },
+            {
+                "text": "Never mind about that, please don't remind me anymore.",
+                "t": 85
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 75
+            },
+            {
+                "trigger_time": 94
+            }
+        ]
+    },
+    {
+        "id": 89,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "a2eb4df2-d29f-4fa6-8d3e-15179de9252b",
+        "video_st": 88,
+        "video_ed": 150,
+        "question": [
+            {
+                "text": "Please remind me whenever the camping tent is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 88
+            },
+            {
+                "text": "Actually, never mind about that, you don't need to remind me anymore.",
+                "t": 115
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 102
+            },
+            {
+                "trigger_time": 128
+            }
+        ]
+    },
+    {
+        "id": 90,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "78a01e40-6ab7-4c4f-b596-b8908eff923b",
+        "video_st": 67,
+        "video_ed": 170,
+        "question": [
+            {
+                "text": "Please remind me whenever the high-heeled boots is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 67
+            },
+            {
+                "text": "Actually, never mind, you don't need to remind me about that anymore.",
+                "t": 101
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 88
+            },
+            {
+                "trigger_time": 114
+            }
+        ]
+    },
+    {
+        "id": 91,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "b1153fdb-aafc-4d33-b770-7738fc039386",
+        "video_st": 42,
+        "video_ed": 81,
+        "question": [
+            {
+                "text": "Please remind me whenever the bottle of engine oil is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 42
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 56
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 48
+            },
+            {
+                "trigger_time": 64
+            }
+        ]
+    },
+    {
+        "id": 92,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "3a3db901-d896-4133-90a9-0a27c4454e73",
+        "video_st": 221,
+        "video_ed": 274,
+        "question": [
+            {
+                "text": "Please remind me whenever the white rice cooker is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 221
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 248
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 239
+            },
+            {
+                "trigger_time": 256
+            }
+        ]
+    },
+    {
+        "id": 93,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "477894c0-9bec-4271-9852-6d28bc05abfe",
+        "video_st": 127,
+        "video_ed": 458,
+        "question": [
+            {
+                "text": "Please remind me whenever the black scissors is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 127
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, just ignore it.",
+                "t": 316
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 297
+            },
+            {
+                "trigger_time": 335
+            }
+        ]
+    },
+    {
+        "id": 94,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "b80cccd9-f050-410c-832d-eeb6c7c9e5db",
+        "video_st": 70,
+        "video_ed": 160,
+        "question": [
+            {
+                "text": "Please remind me whenever the orange bucket is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 70
+            },
+            {
+                "text": "Never mind, no need to remind me about that anymore.",
+                "t": 95
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 76
+            },
+            {
+                "trigger_time": 114
+            }
+        ]
+    },
+    {
+        "id": 95,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "8d22e91b-ed98-4c87-8a25-c937236ca745",
+        "video_st": 285,
+        "video_ed": 338,
+        "question": [
+            {
+                "text": "Please remind me whenever the green bucket is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 285
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, just ignore it.",
+                "t": 307
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 302
+            },
+            {
+                "trigger_time": 312
+            }
+        ]
+    },
+    {
+        "id": 96,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "a4a32a5d-7fbd-465b-aa47-c98709e96b35",
+        "video_st": 79,
+        "video_ed": 163,
+        "question": [
+            {
+                "text": "Please remind me whenever the power drill on the pink box is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 79
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 113
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 86
+            },
+            {
+                "trigger_time": 139
+            }
+        ]
+    },
+    {
+        "id": 97,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "07dfb86a-e013-4542-bdd2-440239700d60",
+        "video_st": 68,
+        "video_ed": 195,
+        "question": [
+            {
+                "text": "Please remind me whenever the green bucket is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 68
+            },
+            {
+                "text": "Actually, never mind, I don't need that reminder anymore.",
+                "t": 139
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 106
+            },
+            {
+                "trigger_time": 171
+            }
+        ]
+    },
+    {
+        "id": 98,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "07dfb86a-e013-4542-bdd2-440239700d60",
+        "video_st": 224,
+        "video_ed": 373,
+        "question": [
+            {
+                "text": "Please remind me whenever the green bucket is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 224
+            },
+            {
+                "text": "Never mind about that, no need to remind me anymore.",
+                "t": 321
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 305
+            },
+            {
+                "trigger_time": 336
+            }
+        ]
+    },
+    {
+        "id": 99,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "1eb995af-0fdd-4f0f-a5ba-089d4b8cb445",
+        "video_st": 5,
+        "video_ed": 64,
+        "question": [
+            {
+                "text": "Please remind me whenever the green plastic bottle is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 5
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 37
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 28
+            },
+            {
+                "trigger_time": 46
+            }
+        ]
+    },
+    {
+        "id": 100,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "87ac4a68-7de8-4583-b43f-6d42b95f1677",
+        "video_st": 80,
+        "video_ed": 155,
+        "question": [
+            {
+                "text": "Please remind me whenever the plastic bottle is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 80
+            },
+            {
+                "text": "Never mind about that, no need to remind me anymore.",
+                "t": 103
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 85
+            },
+            {
+                "trigger_time": 120
+            }
+        ]
+    },
+    {
+        "id": 101,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "6c0c2145-2b3d-48cd-a61c-e29d8541218f",
+        "video_st": 198,
+        "video_ed": 230,
+        "question": [
+            {
+                "text": "Please remind me whenever the white flipflop is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 198
+            },
+            {
+                "text": "Never mind about that, no need to remind me anymore.",
+                "t": 217
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 210
+            },
+            {
+                "trigger_time": 223
+            }
+        ]
+    },
+    {
+        "id": 102,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "54892083-4f4a-4535-b0c9-8babf21492f2",
+        "video_st": 67,
+        "video_ed": 156,
+        "question": [
+            {
+                "text": "Please remind me whenever the syringe tube is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 67
+            },
+            {
+                "text": "Never mind about that, no need to remind me anymore.",
+                "t": 100
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 87
+            },
+            {
+                "trigger_time": 112
+            }
+        ]
+    },
+    {
+        "id": 103,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "984d6427-5bf1-477d-98fc-170b93165868",
+        "video_st": 369,
+        "video_ed": 430,
+        "question": [
+            {
+                "text": "Please remind me whenever the red pen is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 369
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, just forget it.",
+                "t": 389
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 377
+            },
+            {
+                "trigger_time": 400
+            }
+        ]
+    },
+    {
+        "id": 104,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "4e361f11-35fe-4f31-b2f0-38c1d6492d44",
+        "video_st": 35,
+        "video_ed": 86,
+        "question": [
+            {
+                "text": "Please remind me whenever the red and white box is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 35
+            },
+            {
+                "text": "Actually, never mind about that, you don't need to remind me anymore.",
+                "t": 57
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 42
+            },
+            {
+                "trigger_time": 72
+            }
+        ]
+    },
+    {
+        "id": 105,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "4b0245e4-d4b2-4843-bfa6-8b1ae2ecbdb7",
+        "video_st": 245,
+        "video_ed": 312,
+        "question": [
+            {
+                "text": "Please remind me whenever the text \"20HP\" is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 245
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 254
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 248
+            },
+            {
+                "trigger_time": 260
+            }
+        ]
+    },
+    {
+        "id": 106,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "8052ffd1-1b08-41f2-9fc6-e2cf080836bd",
+        "video_st": 44,
+        "video_ed": 105,
+        "question": [
+            {
+                "text": "Please remind me whenever the high-heeled boots is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 44
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 72
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 66
+            },
+            {
+                "trigger_time": 77
+            }
+        ]
+    },
+    {
+        "id": 107,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "8e624464-2808-4a90-8d85-854e58946673",
+        "video_st": 60,
+        "video_ed": 141,
+        "question": [
+            {
+                "text": "Please remind me whenever the red jerrycan is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 60
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 112
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 94
+            },
+            {
+                "trigger_time": 130
+            }
+        ]
+    },
+    {
+        "id": 108,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "8e624464-2808-4a90-8d85-854e58946673",
+        "video_st": 741,
+        "video_ed": 784,
+        "question": [
+            {
+                "text": "Please remind me whenever the red jerrycan is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 741
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 763
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 753
+            },
+            {
+                "trigger_time": 772
+            }
+        ]
+    },
+    {
+        "id": 109,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "4d0dd8c7-3d22-419a-92fa-cd784abbf8ca",
+        "video_st": 159,
+        "video_ed": 195,
+        "question": [
+            {
+                "text": "Please remind me whenever the toothpaste is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 159
+            },
+            {
+                "text": "Actually, never mind about that, you don't need to remind me anymore.",
+                "t": 174
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 162
+            },
+            {
+                "trigger_time": 186
+            }
+        ]
+    },
+    {
+        "id": 110,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "0ba8203a-5825-464b-8d95-32a24e84acf0",
+        "video_st": 38,
+        "video_ed": 103,
+        "question": [
+            {
+                "text": "Please remind me whenever the paper bag is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 38
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 67
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 49
+            },
+            {
+                "trigger_time": 84
+            }
+        ]
+    },
+    {
+        "id": 111,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "801b5ac5-66c4-431b-94d8-09d56e7e14e6",
+        "video_st": 166,
+        "video_ed": 251,
+        "question": [
+            {
+                "text": "Please remind me whenever the basket is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 166
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 192
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 171
+            },
+            {
+                "trigger_time": 213
+            }
+        ]
+    },
+    {
+        "id": 112,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "bab491fc-1ce5-4b95-beef-7d146fc182ca",
+        "video_st": 86,
+        "video_ed": 192,
+        "question": [
+            {
+                "text": "Please remind me whenever the stool is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 86
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 138
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 93
+            },
+            {
+                "trigger_time": 183
+            }
+        ]
+    },
+    {
+        "id": 113,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "b8572547-322e-40b5-b1b2-cbdf3f2f3e3f",
+        "video_st": 111,
+        "video_ed": 144,
+        "question": [
+            {
+                "text": "Please remind me whenever the black toolbox is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 111
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 126
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 118
+            },
+            {
+                "trigger_time": 133
+            }
+        ]
+    },
+    {
+        "id": 114,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "8766b45a-049a-4076-87e9-8421b5ad57c9",
+        "video_st": 428,
+        "video_ed": 460,
+        "question": [
+            {
+                "text": "Please remind me whenever the tent is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 428
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 441
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 436
+            },
+            {
+                "trigger_time": 445
+            }
+        ]
+    },
+    {
+        "id": 115,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "ee5b3977-6598-4dfd-9199-e36a0d2fd56a",
+        "video_st": 194,
+        "video_ed": 288,
+        "question": [
+            {
+                "text": "Please remind me whenever the yellow and black toolbox is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 194
+            },
+            {
+                "text": "Never mind about that, no need to remind me anymore.",
+                "t": 210
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 203
+            },
+            {
+                "trigger_time": 216
+            }
+        ]
+    },
+    {
+        "id": 116,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "6f7f5312-db3f-42db-98c0-f650a3899568",
+        "video_st": 822,
+        "video_ed": 908,
+        "question": [
+            {
+                "text": "Please remind me whenever the green mug is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 822
+            },
+            {
+                "text": "Actually, never mind, you don't need to remind me about that anymore.",
+                "t": 850
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 845
+            },
+            {
+                "trigger_time": 855
+            }
+        ]
+    },
+    {
+        "id": 117,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "71964a8f-209c-47ad-aab5-373423742898",
+        "video_st": 33,
+        "video_ed": 71,
+        "question": [
+            {
+                "text": "Please remind me whenever the black headphones is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 33
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 48
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 37
+            },
+            {
+                "trigger_time": 59
+            }
+        ]
+    },
+    {
+        "id": 118,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "6ed31e70-fabb-4d86-b42f-f4f0b86c15a6",
+        "video_st": 32,
+        "video_ed": 106,
+        "question": [
+            {
+                "text": "Please remind me whenever the painting brush is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 32
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 57
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 37
+            },
+            {
+                "trigger_time": 76
+            }
+        ]
+    },
+    {
+        "id": 119,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "15e0f4a1-598e-48de-a460-134b6ac5baad",
+        "video_st": 755,
+        "video_ed": 805,
+        "question": [
+            {
+                "text": "Please remind me whenever the pliers is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 755
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 792
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 786
+            },
+            {
+                "trigger_time": 798
+            }
+        ]
+    },
+    {
+        "id": 120,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "66db02c4-053b-41ab-8b9f-f467ad1df560",
+        "video_st": 352,
+        "video_ed": 392,
+        "question": [
+            {
+                "text": "Please remind me whenever the yellow drill is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 352
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, just ignore it.",
+                "t": 376
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 368
+            },
+            {
+                "trigger_time": 383
+            }
+        ]
+    },
+    {
+        "id": 121,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "ea2ff83d-74ce-41c4-9558-d7380d1f327d",
+        "video_st": 99,
+        "video_ed": 151,
+        "question": [
+            {
+                "text": "Please remind me whenever the fridge is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 99
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 121
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 111
+            },
+            {
+                "trigger_time": 130
+            }
+        ]
+    },
+    {
+        "id": 122,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "5aa0d7aa-21af-4bfc-a204-f05554a3933e",
+        "video_st": 193,
+        "video_ed": 253,
+        "question": [
+            {
+                "text": "Please remind me whenever the green dustbin is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 193
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 208
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 200
+            },
+            {
+                "trigger_time": 215
+            }
+        ]
+    },
+    {
+        "id": 123,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "d20368b6-fac8-49cf-8abe-976a98fd40fe",
+        "video_st": 25,
+        "video_ed": 100,
+        "question": [
+            {
+                "text": "Please remind me whenever the blue funnel is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 25
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, let's just drop it.",
+                "t": 48
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 37
+            },
+            {
+                "trigger_time": 59
+            }
+        ]
+    },
+    {
+        "id": 124,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "969054ff-26bd-4637-8703-02ccaa33867a",
+        "video_st": 161,
+        "video_ed": 228,
+        "question": [
+            {
+                "text": "Please remind me whenever the tent is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 161
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 181
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 175
+            },
+            {
+                "trigger_time": 186
+            }
+        ]
+    },
+    {
+        "id": 125,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "969054ff-26bd-4637-8703-02ccaa33867a",
+        "video_st": 274,
+        "video_ed": 338,
+        "question": [
+            {
+                "text": "Please remind me whenever the tent is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 274
+            },
+            {
+                "text": "Actually, never mind about that, you don't need to remind me anymore.",
+                "t": 316
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 309
+            },
+            {
+                "trigger_time": 323
+            }
+        ]
+    },
+    {
+        "id": 126,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "17d96c4e-2df9-47ba-8d27-d0e05591b011",
+        "video_st": 181,
+        "video_ed": 228,
+        "question": [
+            {
+                "text": "Please remind me whenever the tent is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 181
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 202
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 197
+            },
+            {
+                "trigger_time": 206
+            }
+        ]
+    },
+    {
+        "id": 127,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "4395986f-3c14-407b-9a5f-a558d2a7caf2",
+        "video_st": 144,
+        "video_ed": 178,
+        "question": [
+            {
+                "text": "Please remind me whenever the tire is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 144
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 154
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 147
+            },
+            {
+                "trigger_time": 161
+            }
+        ]
+    },
+    {
+        "id": 128,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "1d2b62ed-fc94-4fb0-b547-8c50533b0b29",
+        "video_st": 96,
+        "video_ed": 128,
+        "question": [
+            {
+                "text": "Please remind me whenever the white bucket is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 96
+            },
+            {
+                "text": "Actually, never mind about that, you don't need to remind me anymore.",
+                "t": 107
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 101
+            },
+            {
+                "trigger_time": 113
+            }
+        ]
+    },
+    {
+        "id": 129,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "fe3000d6-d857-4cd1-a927-0a91a7f9616e",
+        "video_st": 350,
+        "video_ed": 384,
+        "question": [
+            {
+                "text": "Please remind me whenever the scraper is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 350
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 361
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 353
+            },
+            {
+                "trigger_time": 369
+            }
+        ]
+    },
+    {
+        "id": 130,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "ccd5eb6c-e9cb-4777-8b3b-494cbff10733",
+        "video_st": 41,
+        "video_ed": 96,
+        "question": [
+            {
+                "text": "Please remind me whenever the cream kitchen towel is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 41
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 61
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 54
+            },
+            {
+                "trigger_time": 68
+            }
+        ]
+    },
+    {
+        "id": 131,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "7b452799-981c-494a-affb-d011cd5c43e5",
+        "video_st": 412,
+        "video_ed": 453,
+        "question": [
+            {
+                "text": "Please remind me whenever the liquid soap bottle is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 412
+            },
+            {
+                "text": "Actually, never mind, please skip that reminder from now on.",
+                "t": 426
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 420
+            },
+            {
+                "trigger_time": 431
+            }
+        ]
+    },
+    {
+        "id": 132,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "0c2cc98f-0b4f-4820-8687-e12483cf4d0a",
+        "video_st": 45,
+        "video_ed": 74,
+        "question": [
+            {
+                "text": "Please remind me whenever the broom is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 45
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 54
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 48
+            },
+            {
+                "trigger_time": 60
+            }
+        ]
+    },
+    {
+        "id": 133,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "33e13c5c-f36f-4a33-9ca4-4c7639367baa",
+        "video_st": 149,
+        "video_ed": 215,
+        "question": [
+            {
+                "text": "Please remind me whenever the tap is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 149
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 177
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 169
+            },
+            {
+                "trigger_time": 184
+            }
+        ]
+    },
+    {
+        "id": 134,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "d45f27ec-0e3e-4093-be24-37279052a2e6",
+        "video_st": 335,
+        "video_ed": 452,
+        "question": [
+            {
+                "text": "Please remind me whenever the paint bucket is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 335
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 343
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 338
+            },
+            {
+                "trigger_time": 348
+            }
+        ]
+    },
+    {
+        "id": 135,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "b3c6c88b-da86-435f-b7c1-78813f77e4a4",
+        "video_st": 328,
+        "video_ed": 370,
+        "question": [
+            {
+                "text": "Please remind me whenever the red truck is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 328
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 340
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 333
+            },
+            {
+                "trigger_time": 346
+            }
+        ]
+    },
+    {
+        "id": 136,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "e42e9362-3c68-4c22-98c1-e7900d6e6f07",
+        "video_st": 64,
+        "video_ed": 149,
+        "question": [
+            {
+                "text": "Please remind me whenever the red water bottle is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 64
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, just skip it.",
+                "t": 86
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 70
+            },
+            {
+                "trigger_time": 101
+            }
+        ]
+    },
+    {
+        "id": 137,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "c6a263cd-8b9c-4823-b303-ed30f60872c3",
+        "video_st": 42,
+        "video_ed": 124,
+        "question": [
+            {
+                "text": "Please remind me whenever the knife is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 42
+            },
+            {
+                "text": "Actually, never mind about that, you don't need to remind me anymore.",
+                "t": 72
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 64
+            },
+            {
+                "trigger_time": 80
+            }
+        ]
+    },
+    {
+        "id": 138,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "2693d33c-a610-4187-b055-b3f3b9246273",
+        "video_st": 56,
+        "video_ed": 113,
+        "question": [
+            {
+                "text": "Please remind me whenever the glass is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 56
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 81
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 72
+            },
+            {
+                "trigger_time": 89
+            }
+        ]
+    },
+    {
+        "id": 139,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "8eecafd7-3712-461d-98cc-61bb71400174",
+        "video_st": 52,
+        "video_ed": 175,
+        "question": [
+            {
+                "text": "Please remind me whenever the pot lid is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 52
+            },
+            {
+                "text": "Never mind about that, I don't need the reminder anymore.",
+                "t": 76
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 58
+            },
+            {
+                "trigger_time": 93
+            }
+        ]
+    },
+    {
+        "id": 140,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "f1eb7035-ce79-4be2-81bc-118eb1ad2887",
+        "video_st": 74,
+        "video_ed": 138,
+        "question": [
+            {
+                "text": "Please remind me whenever the black stool is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 74
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 95
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 91
+            },
+            {
+                "trigger_time": 99
+            }
+        ]
+    },
+    {
+        "id": 141,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "09d85b55-d473-49c1-9ebc-e871714785cd",
+        "video_st": 564,
+        "video_ed": 657,
+        "question": [
+            {
+                "text": "Please remind me whenever the drawer is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 564
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 596
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 573
+            },
+            {
+                "trigger_time": 618
+            }
+        ]
+    },
+    {
+        "id": 142,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "09d85b55-d473-49c1-9ebc-e871714785cd",
+        "video_st": 730,
+        "video_ed": 798,
+        "question": [
+            {
+                "text": "Please remind me whenever the calculator is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 730
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 744
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 739
+            },
+            {
+                "trigger_time": 748
+            }
+        ]
+    },
+    {
+        "id": 143,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "09d85b55-d473-49c1-9ebc-e871714785cd",
+        "video_st": 875,
+        "video_ed": 919,
+        "question": [
+            {
+                "text": "Please remind me whenever the calculator is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 875
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 896
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 884
+            },
+            {
+                "trigger_time": 908
+            }
+        ]
+    },
+    {
+        "id": 144,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "558962eb-e2a1-42e1-ad1b-e1025997a22d",
+        "video_st": 116,
+        "video_ed": 188,
+        "question": [
+            {
+                "text": "Please remind me whenever the green potted plant is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 116
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 142
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 120
+            },
+            {
+                "trigger_time": 163
+            }
+        ]
+    },
+    {
+        "id": 145,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "83e54fdc-6336-439c-b8a5-44682989a329",
+        "video_st": 145,
+        "video_ed": 182,
+        "question": [
+            {
+                "text": "Please remind me whenever the green hammer is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 145
+            },
+            {
+                "text": "Actually, never mind about that, you don't need to remind me anymore.",
+                "t": 153
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 149
+            },
+            {
+                "trigger_time": 156
+            }
+        ]
+    },
+    {
+        "id": 146,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "ec8ba29d-0c32-420c-8b91-7ba8b9af328d",
+        "video_st": 45,
+        "video_ed": 78,
+        "question": [
+            {
+                "text": "Please remind me whenever the pliers is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 45
+            },
+            {
+                "text": "Never mind about that, no need to remind me anymore.",
+                "t": 61
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 56
+            },
+            {
+                "trigger_time": 66
+            }
+        ]
+    },
+    {
+        "id": 147,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "3a772435-164d-4a72-ae60-eee7ba7dc8a6",
+        "video_st": 42,
+        "video_ed": 94,
+        "question": [
+            {
+                "text": "Please remind me whenever the book is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 42
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 69
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 50
+            },
+            {
+                "trigger_time": 88
+            }
+        ]
+    },
+    {
+        "id": 148,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "c9a78e56-8835-4db1-93c5-5d81ca47d14c",
+        "video_st": 101,
+        "video_ed": 242,
+        "question": [
+            {
+                "text": "Please remind me whenever the green tray is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 101
+            },
+            {
+                "text": "Never mind about that, no need to remind me anymore.",
+                "t": 117
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 105
+            },
+            {
+                "trigger_time": 128
+            }
+        ]
+    },
+    {
+        "id": 149,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "381d80bc-e253-46a5-b951-b5e91a99b0cd",
+        "video_st": 142,
+        "video_ed": 220,
+        "question": [
+            {
+                "text": "Please remind me whenever the basket is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 142
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 186
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 166
+            },
+            {
+                "trigger_time": 205
+            }
+        ]
+    },
+    {
+        "id": 150,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "7a954faf-102f-4aba-9317-96d73c8fd104",
+        "video_st": 79,
+        "video_ed": 165,
+        "question": [
+            {
+                "text": "Please remind me whenever the red shopping basket is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 79
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, go ahead and skip it.",
+                "t": 115
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 90
+            },
+            {
+                "trigger_time": 139
+            }
+        ]
+    },
+    {
+        "id": 151,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "e6595a30-d78f-40db-a112-51252d767595",
+        "video_st": 42,
+        "video_ed": 103,
+        "question": [
+            {
+                "text": "Please remind me whenever the frying pan is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 42
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 64
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 51
+            },
+            {
+                "trigger_time": 76
+            }
+        ]
+    },
+    {
+        "id": 152,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "4bb8392f-77dc-4a97-8d8a-93c3d6d46818",
+        "video_st": 319,
+        "video_ed": 364,
+        "question": [
+            {
+                "text": "Please remind me whenever the green sieve is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 319
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 332
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 324
+            },
+            {
+                "trigger_time": 340
+            }
+        ]
+    },
+    {
+        "id": 153,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "0ca6ebbc-5ae9-46dd-8d74-0e5383391df1",
+        "video_st": 83,
+        "video_ed": 141,
+        "question": [
+            {
+                "text": "Please remind me whenever the Apple logo is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 83
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 109
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 102
+            },
+            {
+                "trigger_time": 115
+            }
+        ]
+    },
+    {
+        "id": 154,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "71bd0b01-54b9-4cb4-b5c3-9c2642f812e0",
+        "video_st": 33,
+        "video_ed": 70,
+        "question": [
+            {
+                "text": "Please remind me whenever the water jug is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 33
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 48
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 38
+            },
+            {
+                "trigger_time": 58
+            }
+        ]
+    },
+    {
+        "id": 155,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "90c81da8-9b83-466c-bb82-a5d51b1fcfae",
+        "video_st": 108,
+        "video_ed": 147,
+        "question": [
+            {
+                "text": "Please remind me whenever the phone is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 108
+            },
+            {
+                "text": "Never mind, no need to remind me about that anymore.",
+                "t": 120
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 114
+            },
+            {
+                "trigger_time": 126
+            }
+        ]
+    },
+    {
+        "id": 156,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "5d6b83d8-ea4f-4723-ae92-9a753d3bffab",
+        "video_st": 74,
+        "video_ed": 184,
+        "question": [
+            {
+                "text": "Please remind me whenever the pan is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 74
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 113
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 96
+            },
+            {
+                "trigger_time": 130
+            }
+        ]
+    },
+    {
+        "id": 157,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "4feea277-12c6-4f39-8bfc-35bad1b9fdeb",
+        "video_st": 45,
+        "video_ed": 123,
+        "question": [
+            {
+                "text": "Please remind me whenever the yellow tin is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 45
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 60
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 48
+            },
+            {
+                "trigger_time": 72
+            }
+        ]
+    },
+    {
+        "id": 158,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "2b3864c6-50d7-46ff-9ab6-3d6831f741cc",
+        "video_st": 30,
+        "video_ed": 121,
+        "question": [
+            {
+                "text": "Please remind me whenever the pan is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 30
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, just skip it.",
+                "t": 64
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 38
+            },
+            {
+                "trigger_time": 89
+            }
+        ]
+    },
+    {
+        "id": 159,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "c26aeac2-df96-4536-8571-02e02788a18e",
+        "video_st": 379,
+        "video_ed": 416,
+        "question": [
+            {
+                "text": "Please remind me whenever the impact driver is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 379
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 399
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 391
+            },
+            {
+                "trigger_time": 407
+            }
+        ]
+    },
+    {
+        "id": 160,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "f1a5c737-6648-4f20-a969-be18656620b3",
+        "video_st": 597,
+        "video_ed": 630,
+        "question": [
+            {
+                "text": "Please remind me whenever the blue cup is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 597
+            },
+            {
+                "text": "Actually, never mind about that, you don't need to remind me anymore.",
+                "t": 621
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 617
+            },
+            {
+                "trigger_time": 624
+            }
+        ]
+    },
+    {
+        "id": 161,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "1e938429-6376-4bc8-a145-7225f885e026",
+        "video_st": 101,
+        "video_ed": 144,
+        "question": [
+            {
+                "text": "Please remind me whenever the blue rice cooker is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 101
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 133
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 127
+            },
+            {
+                "trigger_time": 138
+            }
+        ]
+    },
+    {
+        "id": 162,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "0080281f-4db1-4a49-9753-e70c41bd9bc7",
+        "video_st": 147,
+        "video_ed": 192,
+        "question": [
+            {
+                "text": "Please remind me whenever the measuring tape is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 147
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 169
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 155
+            },
+            {
+                "trigger_time": 182
+            }
+        ]
+    },
+    {
+        "id": 163,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "3f871135-dd18-4e8c-a16b-470b3eef46ba",
+        "video_st": 38,
+        "video_ed": 83,
+        "question": [
+            {
+                "text": "Please remind me whenever the TV is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 38
+            },
+            {
+                "text": "Actually, never mind, you don't need to remind me about that anymore.",
+                "t": 53
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 43
+            },
+            {
+                "trigger_time": 62
+            }
+        ]
+    },
+    {
+        "id": 164,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ego4d_clips",
+        "video_name": "ba205890-25a1-49a1-93d9-3e14cf8d44bd",
+        "video_st": 167,
+        "video_ed": 213,
+        "question": [
+            {
+                "text": "Please remind me whenever the remote control is visible in the current moment; if the object is visible now, output <attention>, otherwise output <silence>.",
+                "t": 167
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 193
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 184
+            },
+            {
+                "trigger_time": 202
+            }
+        ]
+    },
+    {
+        "id": 165,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "5BDj0ow5hnA",
+        "video_st": 966,
+        "video_ed": 990,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is playing a musical instrument; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 966
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, just ignore it from now on.",
+                "t": 978
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 972
+            },
+            {
+                "trigger_time": 984
+            }
+        ]
+    },
+    {
+        "id": 166,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "5BDj0ow5hnA",
+        "video_st": 966,
+        "video_ed": 998,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is playing a musical instrument; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 966
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 982
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 972
+            },
+            {
+                "trigger_time": 992
+            }
+        ]
+    },
+    {
+        "id": 167,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "5BDj0ow5hnA",
+        "video_st": 980,
+        "video_ed": 998,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is playing a musical instrument; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 980
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 988
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 984
+            },
+            {
+                "trigger_time": 992
+            }
+        ]
+    },
+    {
+        "id": 168,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "CMCPhm2L400",
+        "video_st": 1203,
+        "video_ed": 1257,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is smoking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1203
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, just drop it.",
+                "t": 1241
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1235
+            },
+            {
+                "trigger_time": 1246
+            }
+        ]
+    },
+    {
+        "id": 169,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "CMCPhm2L400",
+        "video_st": 1270,
+        "video_ed": 1296,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is smoking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1270
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, go ahead and stop.",
+                "t": 1282
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1274
+            },
+            {
+                "trigger_time": 1290
+            }
+        ]
+    },
+    {
+        "id": 170,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "Gvp-cj3bmIY",
+        "video_st": 1659,
+        "video_ed": 1711,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is smoking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1659
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, just ignore it from now on.",
+                "t": 1677
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1667
+            },
+            {
+                "trigger_time": 1686
+            }
+        ]
+    },
+    {
+        "id": 171,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "Gvp-cj3bmIY",
+        "video_st": 1698,
+        "video_ed": 1729,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is smoking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1698
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, just skip it from now on.",
+                "t": 1719
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1713
+            },
+            {
+                "trigger_time": 1724
+            }
+        ]
+    },
+    {
+        "id": 172,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "IzvOYVMltkI",
+        "video_st": 1413,
+        "video_ed": 1507,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is smoking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1413
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, just drop it.",
+                "t": 1452
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1445
+            },
+            {
+                "trigger_time": 1458
+            }
+        ]
+    },
+    {
+        "id": 173,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "Lg1jOu8cUBM",
+        "video_st": 908,
+        "video_ed": 933,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is smoking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 908
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, let's drop it.",
+                "t": 922
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 916
+            },
+            {
+                "trigger_time": 928
+            }
+        ]
+    },
+    {
+        "id": 174,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "Lg1jOu8cUBM",
+        "video_st": 1004,
+        "video_ed": 1026,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is smoking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1004
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, just ignore it from now on.",
+                "t": 1017
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1012
+            },
+            {
+                "trigger_time": 1022
+            }
+        ]
+    },
+    {
+        "id": 175,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "Lg1jOu8cUBM",
+        "video_st": 1004,
+        "video_ed": 1038,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is smoking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1004
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, just drop it.",
+                "t": 1020
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1012
+            },
+            {
+                "trigger_time": 1028
+            }
+        ]
+    },
+    {
+        "id": 176,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "Lg1jOu8cUBM",
+        "video_st": 1043,
+        "video_ed": 1071,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is smoking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1043
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, just drop it.",
+                "t": 1058
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1049
+            },
+            {
+                "trigger_time": 1067
+            }
+        ]
+    },
+    {
+        "id": 177,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "Lg1jOu8cUBM",
+        "video_st": 1064,
+        "video_ed": 1082,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is smoking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1064
+            },
+            {
+                "text": "Actually, you can stop reminding me about that, I don't need it anymore.",
+                "t": 1072
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1067
+            },
+            {
+                "trigger_time": 1076
+            }
+        ]
+    },
+    {
+        "id": 178,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "Lg1jOu8cUBM",
+        "video_st": 1408,
+        "video_ed": 1457,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is smoking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1408
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, just ignore it from now on.",
+                "t": 1418
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1412
+            },
+            {
+                "trigger_time": 1423
+            }
+        ]
+    },
+    {
+        "id": 179,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "O_NYCUhZ9zw",
+        "video_st": 1543,
+        "video_ed": 1673,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is answering the phone; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1543
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 1563
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1556
+            },
+            {
+                "trigger_time": 1569
+            }
+        ]
+    },
+    {
+        "id": 180,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "QTmwhrVal1g",
+        "video_st": 1415,
+        "video_ed": 1624,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is answering the phone; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1415
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, just forget it.",
+                "t": 1488
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1468
+            },
+            {
+                "trigger_time": 1507
+            }
+        ]
+    },
+    {
+        "id": 181,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "XpGRS72ghag",
+        "video_st": 900,
+        "video_ed": 949,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is smoking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 900
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, just ignore it from now on.",
+                "t": 936
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 928
+            },
+            {
+                "trigger_time": 943
+            }
+        ]
+    },
+    {
+        "id": 182,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "XpGRS72ghag",
+        "video_st": 1034,
+        "video_ed": 1056,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is smoking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1034
+            },
+            {
+                "text": "You don't need to remind me about that anymore, just drop it going forward.",
+                "t": 1042
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1038
+            },
+            {
+                "trigger_time": 1045
+            }
+        ]
+    },
+    {
+        "id": 183,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "Z1YV6wB037M",
+        "video_st": 907,
+        "video_ed": 1103,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is drinking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 907
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 942
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 937
+            },
+            {
+                "trigger_time": 946
+            }
+        ]
+    },
+    {
+        "id": 184,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "Z1YV6wB037M",
+        "video_st": 951,
+        "video_ed": 1127,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is drinking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 951
+            },
+            {
+                "text": "Actually, never mind about that, you don't need to remind me anymore.",
+                "t": 1111
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1105
+            },
+            {
+                "trigger_time": 1116
+            }
+        ]
+    },
+    {
+        "id": 185,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "Z1YV6wB037M",
+        "video_st": 1311,
+        "video_ed": 1575,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is drinking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1311
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, just skip it from now on.",
+                "t": 1325
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1319
+            },
+            {
+                "trigger_time": 1331
+            }
+        ]
+    },
+    {
+        "id": 186,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "ZosVdkY76FU",
+        "video_st": 973,
+        "video_ed": 1024,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is answering the phone; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 973
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 1003
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 994
+            },
+            {
+                "trigger_time": 1012
+            }
+        ]
+    },
+    {
+        "id": 187,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "_7oWZq_s_Sk",
+        "video_st": 1010,
+        "video_ed": 1057,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is playing a musical instrument; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1010
+            },
+            {
+                "text": "Actually, never mind about that, you don't need to remind me anymore.",
+                "t": 1026
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1021
+            },
+            {
+                "trigger_time": 1031
+            }
+        ]
+    },
+    {
+        "id": 188,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "_7oWZq_s_Sk",
+        "video_st": 1063,
+        "video_ed": 1090,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is playing a musical instrument; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1063
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 1078
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1069
+            },
+            {
+                "trigger_time": 1086
+            }
+        ]
+    },
+    {
+        "id": 189,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "_dBTTYDRdRQ",
+        "video_st": 998,
+        "video_ed": 1081,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is playing a musical instrument; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 998
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, just ignore it from now on.",
+                "t": 1045
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1030
+            },
+            {
+                "trigger_time": 1059
+            }
+        ]
+    },
+    {
+        "id": 190,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "_dBTTYDRdRQ",
+        "video_st": 1054,
+        "video_ed": 1092,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is playing a musical instrument; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1054
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 1071
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1059
+            },
+            {
+                "trigger_time": 1083
+            }
+        ]
+    },
+    {
+        "id": 191,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "_dBTTYDRdRQ",
+        "video_st": 1070,
+        "video_ed": 1135,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is playing a musical instrument; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1070
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, just ignore it going forward.",
+                "t": 1091
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1083
+            },
+            {
+                "trigger_time": 1099
+            }
+        ]
+    },
+    {
+        "id": 192,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "_dBTTYDRdRQ",
+        "video_st": 1309,
+        "video_ed": 1435,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is playing a musical instrument; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1309
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 1364
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1326
+            },
+            {
+                "trigger_time": 1401
+            }
+        ]
+    },
+    {
+        "id": 193,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "fpprSy6AzKk",
+        "video_st": 1088,
+        "video_ed": 1196,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is playing a musical instrument; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1088
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 1097
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1093
+            },
+            {
+                "trigger_time": 1101
+            }
+        ]
+    },
+    {
+        "id": 194,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "fpprSy6AzKk",
+        "video_st": 1450,
+        "video_ed": 1535,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is playing a musical instrument; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1450
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 1501
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1484
+            },
+            {
+                "trigger_time": 1518
+            }
+        ]
+    },
+    {
+        "id": 195,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "fpprSy6AzKk",
+        "video_st": 1515,
+        "video_ed": 1575,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is playing a musical instrument; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1515
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 1528
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1518
+            },
+            {
+                "trigger_time": 1537
+            }
+        ]
+    },
+    {
+        "id": 196,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "j5jmjhGBW44",
+        "video_st": 1139,
+        "video_ed": 1206,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is smoking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1139
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, just ignore it from now on.",
+                "t": 1177
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1171
+            },
+            {
+                "trigger_time": 1183
+            }
+        ]
+    },
+    {
+        "id": 197,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "j5jmjhGBW44",
+        "video_st": 1554,
+        "video_ed": 1638,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is playing a board game; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1554
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 1595
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1586
+            },
+            {
+                "trigger_time": 1603
+            }
+        ]
+    },
+    {
+        "id": 198,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "jE0S8gYWftE",
+        "video_st": 1343,
+        "video_ed": 1417,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is playing a musical instrument; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1343
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 1379
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1375
+            },
+            {
+                "trigger_time": 1383
+            }
+        ]
+    },
+    {
+        "id": 199,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "lDmLcWWBp1E",
+        "video_st": 1131,
+        "video_ed": 1735,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is playing a musical instrument; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1131
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 1717
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1709
+            },
+            {
+                "trigger_time": 1725
+            }
+        ]
+    },
+    {
+        "id": 200,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "lDmLcWWBp1E",
+        "video_st": 1714,
+        "video_ed": 1744,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is playing a musical instrument; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1714
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 1731
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1725
+            },
+            {
+                "trigger_time": 1737
+            }
+        ]
+    },
+    {
+        "id": 201,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "nlinqZPgvVk",
+        "video_st": 1510,
+        "video_ed": 1624,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is drinking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1510
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, just drop it.",
+                "t": 1523
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1515
+            },
+            {
+                "trigger_time": 1530
+            }
+        ]
+    },
+    {
+        "id": 202,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "om_83F5VwTQ",
+        "video_st": 1147,
+        "video_ed": 1550,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is smoking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1147
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 1201
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1179
+            },
+            {
+                "trigger_time": 1223
+            }
+        ]
+    },
+    {
+        "id": 203,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "om_83F5VwTQ",
+        "video_st": 1643,
+        "video_ed": 1679,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is smoking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1643
+            },
+            {
+                "text": "Actually, never mind about that, you don't need to remind me about it anymore.",
+                "t": 1654
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1649
+            },
+            {
+                "trigger_time": 1659
+            }
+        ]
+    },
+    {
+        "id": 204,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "om_83F5VwTQ",
+        "video_st": 1689,
+        "video_ed": 1727,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is smoking; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1689
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 1710
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1697
+            },
+            {
+                "trigger_time": 1722
+            }
+        ]
+    },
+    {
+        "id": 205,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "qx2vAO5ofmo",
+        "video_st": 1085,
+        "video_ed": 1117,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is dancing; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1085
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 1110
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1105
+            },
+            {
+                "trigger_time": 1114
+            }
+        ]
+    },
+    {
+        "id": 206,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "qx2vAO5ofmo",
+        "video_st": 1085,
+        "video_ed": 1122,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is dancing; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1085
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 1112
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1105
+            },
+            {
+                "trigger_time": 1119
+            }
+        ]
+    },
+    {
+        "id": 207,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "sNQJfYvhcPk",
+        "video_st": 1046,
+        "video_ed": 1148,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is answering the phone; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1046
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 1088
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1078
+            },
+            {
+                "trigger_time": 1097
+            }
+        ]
+    },
+    {
+        "id": 208,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "sNQJfYvhcPk",
+        "video_st": 1092,
+        "video_ed": 1528,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is answering the phone; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1092
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, just ignore it from now on.",
+                "t": 1128
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1097
+            },
+            {
+                "trigger_time": 1159
+            }
+        ]
+    },
+    {
+        "id": 209,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "sNQJfYvhcPk",
+        "video_st": 1310,
+        "video_ed": 1565,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is working on a computer; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1310
+            },
+            {
+                "text": "Never mind about that, please don't remind me anymore.",
+                "t": 1347
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1342
+            },
+            {
+                "trigger_time": 1352
+            }
+        ]
+    },
+    {
+        "id": 210,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "sNQJfYvhcPk",
+        "video_st": 1163,
+        "video_ed": 1591,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is answering the phone; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1163
+            },
+            {
+                "text": "Never mind about that, you can stop reminding me now.",
+                "t": 1539
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1530
+            },
+            {
+                "trigger_time": 1548
+            }
+        ]
+    },
+    {
+        "id": 211,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "uNT6HrrnqPU",
+        "video_st": 1169,
+        "video_ed": 1423,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is dancing; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1169
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, just ignore it from now on.",
+                "t": 1412
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1407
+            },
+            {
+                "trigger_time": 1417
+            }
+        ]
+    },
+    {
+        "id": 212,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "uNT6HrrnqPU",
+        "video_st": 1450,
+        "video_ed": 1471,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is clapping their hands; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1450
+            },
+            {
+                "text": "Actually, you don't need to remind me about that anymore, just ignore it from now on.",
+                "t": 1458
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1453
+            },
+            {
+                "trigger_time": 1462
+            }
+        ]
+    },
+    {
+        "id": 213,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "uNT6HrrnqPU",
+        "video_st": 1474,
+        "video_ed": 1516,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is dancing; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1474
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 1505
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1498
+            },
+            {
+                "trigger_time": 1512
+            }
+        ]
+    },
+    {
+        "id": 214,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "uNT6HrrnqPU",
+        "video_st": 1474,
+        "video_ed": 1525,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is dancing; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1474
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 1508
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1498
+            },
+            {
+                "trigger_time": 1518
+            }
+        ]
+    },
+    {
+        "id": 215,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "uNT6HrrnqPU",
+        "video_st": 1509,
+        "video_ed": 1540,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is dancing; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1509
+            },
+            {
+                "text": "Never mind, that reminder isn't necessary anymore.",
+                "t": 1522
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1512
+            },
+            {
+                "trigger_time": 1531
+            }
+        ]
+    },
+    {
+        "id": 216,
+        "task": "Proactive Task Management/Task Cancellation",
+        "data": "ava",
+        "video_name": "uNT6HrrnqPU",
+        "video_st": 1523,
+        "video_ed": 1567,
+        "question": [
+            {
+                "text": "Please remind me whenever the person is dancing; if the action is happening in the current moment, output <attention>, otherwise output <silence>.",
+                "t": 1523
+            },
+            {
+                "text": "Never mind about that, you don't need to remind me anymore.",
+                "t": 1535
+            }
+        ],
+        "answer": [
+            {
+                "trigger_time": 1527
+            },
+            {
+                "trigger_time": 1542
+            }
+        ]
+    }
+]
