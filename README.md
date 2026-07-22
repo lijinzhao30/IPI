@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://lijinzhao30.github.io/IPIBench/"><img src="https://img.shields.io/badge/Project-Page-blue" alt="Project Page"></a>
   <a href="https://lijinzhao30.github.io/IPIBench/paper.pdf"><img src="https://img.shields.io/badge/Paper-PDF-red?logo=adobeacrobatreader" alt="Paper"></a>
-  <a href="Benchmark/"><img src="https://img.shields.io/badge/Benchmark-IPIBench-orange?logo=huggingface" alt="Benchmark"></a>
+  <a href="https://huggingface.co/datasets/lijinzhao30/IPIBench"><img src="https://img.shields.io/badge/Benchmark-IPIBench-orange?logo=huggingface" alt="Benchmark"></a>
 </p>
 
 ## Overview
