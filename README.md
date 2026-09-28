@@ -6,6 +6,10 @@
   <a href="https://huggingface.co/datasets/lijinzhao30/IPIBench"><img src="https://img.shields.io/badge/Benchmark-IPIBench-orange?logo=huggingface" alt="Benchmark"></a>
 </p>
 
+## Demo
+
+https://github.com/user-attachments/assets/3aeb39b3-11ef-4acd-9c60-33d296c3b224
+
 ## Overview
 
 Recent multimodal large language models (MLLMs) have made strong progress on reactive visual question answering. Real streaming assistants, however, need to move beyond passively answering questions: they must continuously observe visual streams, proactively respond at the right moment, support multi-turn interaction, and adapt when users add, modify, or cancel requests.
